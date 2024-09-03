@@ -330,15 +330,15 @@ def full_saveQB(vin):
 
 
 def full_save(vin, ws=4):
-    FOLDER_PATH = r'D:\data\fulldata\fulldata'
-    OUT_FILE_PATH = r'D:\data\fulldata'
+    GB_FOLDER_PATH = r'D:\data\fulldata\fulldata'
+    GB_OUT_FILE_PATH = r'D:\data\fulldata'
     IN_FILE_NAME = os.listdir(FOLDER_PATH)
     print(IN_FILE_NAME)
     print(vin)
     for in_file in IN_FILE_NAME:
         if vin in in_file:
-            emb_file = FOLDER_PATH + '\\' + in_file
-            out_flie = OUT_FILE_PATH + '\\' + in_file
+            gb_emb_file = GB_FOLDER_PATH + '\\' + in_file
+            gb_out_flie = GB_OUT_FILE_PATH + '\\' + in_file
             is_PARKING = None
             PARKING_count = 0
             stateOf_Charge = car_args.sc
@@ -356,7 +356,7 @@ def full_save(vin, ws=4):
             # new_time_2 = parse('2023-12-02 14:00:00')
             print(emb_file, out_flie)
 
-            with open(emb_file, 'r', encoding='utf-8') as f:
+            with open(gb_emb_file, 'r', encoding='utf-8') as f:
                 #print(len(f.readlines()))
                 #for i in f.readlines()[0:2]:
                 json_load = json.load(f)
@@ -497,20 +497,20 @@ def full_save(vin, ws=4):
                                                                               collec_time=new_time_3
                                                                               )
                             min_save = requests.post(url=perf_mixer_saveMixer, json=work_mix, headers=headers)
-                            print(min_save.text)
+                            # print(min_save.text)
                             sweep_save = requests.post(url=perf_sweep_saveSweep, json=work_sweep, headers=headers)
-                            print(sweep_save.text)
+                            # print(sweep_save.text)
                         elif io_date['chargingState'] == 'OUTAGE' and ws == 2:
                             mix_sweep_count, work_mix = mix_sweep(io_date=io_date,
-                                                                              work_mix=work_mix,
-                                                                              work_sweep=work_sweep,
-                                                                              ws=ws,
-                                                                              mix_sweep_count=mix_sweep_count,
-                                                                              vin=vin,
-                                                                              collec_time=new_time_3
-                                                                              )
+                                                                          work_mix=work_mix,
+                                                                          work_sweep=work_sweep,
+                                                                          ws=ws,
+                                                                          mix_sweep_count=mix_sweep_count,
+                                                                          vin=vin,
+                                                                          collec_time=new_time_3
+                                                                          )
                             min_save = requests.post(url=perf_mixer_saveMixer, json=work_mix, headers=headers)
-                            print(min_save.text)
+                            # print(min_save.text)
                         elif io_date['chargingState'] == 'OUTAGE' and ws == 3:
                             mix_sweep_count, work_sweep = mix_sweep(io_date=io_date,
                                                                   work_mix=work_mix,
@@ -521,14 +521,15 @@ def full_save(vin, ws=4):
                                                                   collec_time=new_time_3
                                                                   )
                             sweep_save = requests.post(url=perf_sweep_saveSweep, json=work_sweep, headers=headers)
-                            print(sweep_save.text)
+                            # print(sweep_save.text)
                         else:
                             pass
                     except Exception as error:
                         print(error)
                     else:
-                        with open(out_flie, 'a+', encoding='utf-8') as newFile:
-                            newFile.write(json.dumps(io_date) + '\n')
+                        with open(gb_out_flie, 'a+', encoding='utf-8') as newFile:
+                            # newFile.write(json.dumps(io_date) + '\n')
+                            pass
 
                     time.sleep(10)
 
@@ -542,10 +543,10 @@ def main(num, ws=4):
         for vin in vin_list:
             full_gb = Thread(target=full_save, args=(vin, ws))
             full_gb.start()
-            full_qb = Thread(target=full_saveQB, args=(vin,))
-            full_qb.start()
+            # full_qb = Thread(target=full_saveQB, args=(vin,))
+            # full_qb.start()
         full_gb.join()
-        full_qb.join()
+        # full_qb.join()
 
     elif num == 2:
         FOLDER_PATH = r'D:\data\fulldata\fulldata'
