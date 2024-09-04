@@ -161,185 +161,188 @@ def mileage(io_date, start_mlieages):
 Num = 0
 
 
-def fault_save():
-    FOLDER_PATH = r'D:\data\faultdatagz\faultdatagz'
-    OUT_FILE_PATH = r'D:\data\faultdatagz'
-    IN_FILE_NAME = os.listdir(FOLDER_PATH)
-    type_car = ['清洗车', '扫路车', '垃圾车', '抑灰车', '电动车']
-    print(IN_FILE_NAME)
-
-    for in_file in IN_FILE_NAME:
-        global Num
-        Num += 1
-        vehicleNo = "沪Ful" + f'{Num:03}'
-        vehicleType = random.choice(type_car)
-        emb_file = FOLDER_PATH + '\\' + in_file
-        out_flie = OUT_FILE_PATH + '\\' + in_file
-        new_time_2 = parse('2024-01-10 14:00:00')
-        print(emb_file, out_flie)
-        print(vehicleNo)
-        print(vehicleType)
-
-        with open(emb_file, 'r', encoding='utf-8') as f:
-            #print(len(f.readlines()))
-            #for i in f.readlines()[0:2]:
-            json_load = json.load(f)
-            for io_date in json_load[-1::-1]:
-                fault_type_count = ['通用告警', '整车故障', '上装故障']
-                # new_time_1 = io_date["time"][0:10] + " " + io_date["time"][11:19]
-                tc = relativedelta(minutes=random.randint(20, 300))
-                over_t = relativedelta(minutes=random.randint(20, 300))
-                # print(new_time)
-                # time_stp = format(get_time_stp(new_time), '.0f')
-                # time_stp = int(time_stp)
-                # print(time_stp)
-                io_date.pop("time")
-                vin_Code = io_date.pop("vin")
-                io_date["occurredDate"] = new_time_2.strftime("%Y-%m-%d %H:%M:%S")
-                io_date['vinCode'] = vin_Code
-                io_date['vehicleType'] = vehicleType
-                if io_date['vinCode'] == 'L58ZC5VC9ND003096':
-                    io_date['vehicleNo'] = '沪Ful789'
-                elif io_date['vinCode'] == 'LEWUMC180PF101060':
-                    io_date['vehicleNo'] = '川A17590D'
-                elif io_date['vinCode'] == 'LEWUMC187MF146721':
-                    io_date['vehicleNo'] = '豫E01128D'
-                else:
-                    io_date['vehicleNo'] = vehicleNo
-                new_fault_Type = random.choice(fault_type_count)
-                # print(fault_Type)
-                if new_fault_Type == '上装故障':
-                    io_date['faultType'] = new_fault_Type
-                    io_date['faultType2'] = random.randint(0, 2)
-                    io_date['motorType'] = random.randint(1, 9)
-                    io_date['thirdSourceType'] = 2
-                elif new_fault_Type == '通用告警':
-                    io_date['faultType'] = new_fault_Type
-                    io_date['faultType2'] = ''
-                    io_date['motorType'] = ''
-                    io_date['thirdSourceType'] = 1
-                elif new_fault_Type == '整车故障':
-                    io_date['faultType'] = new_fault_Type
-                    io_date['faultType2'] = ''
-                    io_date['motorType'] = ''
-                    io_date['thirdSourceType'] = 2
-                io_date = vin_with_organizationId(in_file, io_date)
-                io_date = fault_Level(io_date)
-                if random.randint(1, 2) == 2:
-                    remove_Date = new_time_2 + over_t
-                    io_date['removeDate'] = remove_Date.strftime("%Y-%m-%d %H:%M:%S")
-                else:
-                    io_date['removeDate'] = ''
-                list_io_data= []
-                list_io_data.append(io_date)
-                print(type(io_date))
-                # print(list_io_data)
-                #str_io_data = json.dumps(io_date)
-                #print(type(str_io_data))
-                try:
-                    req = requests.post(url=perf_fault_save, json=list_io_data, headers=headers)
-                    print(req.text)
-                except Exception as error:
-                    print(error)
-                else:
-                    with open(out_flie, 'a+', encoding='utf-8') as newFile:
-                        newFile.write(json.dumps(io_date) + '\n')
-
-                new_time_2 += tc
-
+# def fault_save():
+#     FOLDER_PATH = r'D:\data\faultdatagz\faultdatagz'
+#     OUT_FILE_PATH = r'D:\data\faultdatagz'
+#     IN_FILE_NAME = os.listdir(FOLDER_PATH)
+#     type_car = ['清洗车', '扫路车', '垃圾车', '抑灰车', '电动车']
+#     print(IN_FILE_NAME)
+#
+#     for in_file in IN_FILE_NAME:
+#         global Num
+#         Num += 1
+#         vehicleNo = "沪Ful" + f'{Num:03}'
+#         vehicleType = random.choice(type_car)
+#         emb_file = FOLDER_PATH + '\\' + in_file
+#         out_flie = OUT_FILE_PATH + '\\' + in_file
+#         new_time_2 = parse('2024-01-10 14:00:00')
+#         print(emb_file, out_flie)
+#         print(vehicleNo)
+#         print(vehicleType)
+#
+#         with open(emb_file, 'r', encoding='utf-8') as f:
+#             #print(len(f.readlines()))
+#             #for i in f.readlines()[0:2]:
+#             json_load = json.load(f)
+#             for io_date in json_load[-1::-1]:
+#                 fault_type_count = ['通用告警', '整车故障', '上装故障']
+#                 # new_time_1 = io_date["time"][0:10] + " " + io_date["time"][11:19]
+#                 tc = relativedelta(minutes=random.randint(20, 300))
+#                 over_t = relativedelta(minutes=random.randint(20, 300))
+#                 # print(new_time)
+#                 # time_stp = format(get_time_stp(new_time), '.0f')
+#                 # time_stp = int(time_stp)
+#                 # print(time_stp)
+#                 io_date.pop("time")
+#                 vin_Code = io_date.pop("vin")
+#                 io_date["occurredDate"] = new_time_2.strftime("%Y-%m-%d %H:%M:%S")
+#                 io_date['vinCode'] = vin_Code
+#                 io_date['vehicleType'] = vehicleType
+#                 if io_date['vinCode'] == 'L58ZC5VC9ND003096':
+#                     io_date['vehicleNo'] = '沪Ful789'
+#                 elif io_date['vinCode'] == 'LEWUMC180PF101060':
+#                     io_date['vehicleNo'] = '川A17590D'
+#                 elif io_date['vinCode'] == 'LEWUMC187MF146721':
+#                     io_date['vehicleNo'] = '豫E01128D'
+#                 else:
+#                     io_date['vehicleNo'] = vehicleNo
+#                 new_fault_Type = random.choice(fault_type_count)
+#                 # print(fault_Type)
+#                 if new_fault_Type == '上装故障':
+#                     io_date['faultType'] = new_fault_Type
+#                     io_date['faultType2'] = random.randint(0, 2)
+#                     io_date['motorType'] = random.randint(1, 9)
+#                     io_date['thirdSourceType'] = 2
+#                 elif new_fault_Type == '通用告警':
+#                     io_date['faultType'] = new_fault_Type
+#                     io_date['faultType2'] = ''
+#                     io_date['motorType'] = ''
+#                     io_date['thirdSourceType'] = 1
+#                 elif new_fault_Type == '整车故障':
+#                     io_date['faultType'] = new_fault_Type
+#                     io_date['faultType2'] = ''
+#                     io_date['motorType'] = ''
+#                     io_date['thirdSourceType'] = 2
+#                 io_date = vin_with_organizationId(in_file, io_date)
+#                 io_date = fault_Level(io_date)
+#                 if random.randint(1, 2) == 2:
+#                     remove_Date = new_time_2 + over_t
+#                     io_date['removeDate'] = remove_Date.strftime("%Y-%m-%d %H:%M:%S")
+#                 else:
+#                     io_date['removeDate'] = ''
+#                 list_io_data= [].append(io_date)
+#                 print(type(io_date))
+#                 # print(list_io_data)
+#                 #str_io_data = json.dumps(io_date)
+#                 #print(type(str_io_data))
+#                 try:
+#                     req = requests.post(url=perf_fault_save, json=list_io_data, headers=headers)
+#                     print(req.text)
+#                 except Exception as error:
+#                     print(error)
+#                 else:
+#                     with open(out_flie, 'a+', encoding='utf-8') as newFile:
+#                         newFile.write(json.dumps(io_date) + '\n')
+#
+#                 new_time_2 += tc
 
 
-def full_saveQB(vin):
-    FOLDER_PATH = r'D:\data\fulldataqb\fulldataqb'
-    OUT_FILE_PATH = r'D:\data\fulldataqb'
-    IN_FILE_NAME = os.listdir(FOLDER_PATH)
-    print(IN_FILE_NAME)
 
-    for in_file in IN_FILE_NAME:
-        if vin in in_file:
-            emb_file = FOLDER_PATH + '\\' + in_file
-            out_flie = OUT_FILE_PATH + '\\' + in_file
-            # new_time_2 = parse('2023-12-02 14:00:00')
-            print(emb_file, out_flie)
-            software_Version = "31.1." + str(random.randint(80, 99))
-            iviVersion = '10.1.' + str(random.randint(80, 99))
-            vehicleType = random.randint(1, 14)
-            #上装工作状态
-            workStatus_count = 0
-            Renumber_WorkStatus = 0
+def full_saveQB(vin: str, time_stp: int, gb_io_date: object, qb_range_read: int):
+    QB_FOLDER_PATH = r'D:\data\fulldataqb\fulldataqb'
+    QB_OUT_FILE_PATH = r'D:\data\fulldataqb'
+    QB_IN_FILE_NAME = os.listdir(QB_FOLDER_PATH)
+    print(QB_IN_FILE_NAME)
 
-            with open(emb_file, 'r', encoding='utf-8') as f:
-                #print(len(f.readlines()))
-                #for i in f.readlines()[0:2]:
-                json_load = json.load(f)
-                for io_date in json_load[-1::-1]:
-                    new_time_1 = io_date["time"][0:10] + " " + io_date["time"][11:19]
-                    # tc = relativedelta(minutes=random.randint(20, 300))
-                    # over_t = relativedelta(minutes=random.randint(300, 500))
-                    # new_time_2 += tc
-                    new_time_3 = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                    #print(new_time_3)
-                    time_stp = format(get_time_stp(new_time_3), '.0f')
-                    time_stp = int(time_stp)
-                    # print(time_stp)
-                    io_date.pop("time")
-                    io_date["recordTime"] = time_stp
-                    io_date['count'] = random.randint(1, 5)
-                    io_date['format'] = random.randint(0, 1)
-                    io_date['canId1'] = '0x0C0DE6D0'
-                    io_date['canId2'] = '0x0C10E628'
-                    io_date['can1No'] = 1
-                    io_date['can2No'] = 2
-                    io_date['lockLimitStatus'] = randem_nember(0, 1, 3).ljust(8, '0')
-                    if workStatus_count == 0:
-                        Renumber_WorkStatus = random.randint(0, 1)
-                        io_date['workStatus'] = Renumber_WorkStatus
-                        ws_count = random.randint(1,100)
-                        workStatus_count += 1
-                    elif workStatus_count != 0 and workStatus_count < ws_count:
-                        workStatus_count += 1
-                        io_date['workStatus'] = Renumber_WorkStatus
-                    elif workStatus_count >= ws_count:
-                        workStatus_count = 0
-                        io_date['workStatus'] = Renumber_WorkStatus
-                    io_date['softwareVersion'] = software_Version
-                    io_date['vehicleType'] = vehicleType
-                    io_date['iviVersion'] = iviVersion
-                    io_date['vehicleType'] = vehicleType
-                    io_date['faultType'] = random.randint(0, 2)
-                    if io_date['faultType'] != 0:
-                        io_date['motorType'] = random.randint(1, 9)
-                        io_date['motorFault'] = random.randint(0, 255)
-                    else:
-                        io_date['motorType'] = 0
-                        io_date['motorFault'] = 0
-                    print(io_date)
-                    print(type(io_date))
-                    try:
-                        req = requests.post(url=perf_full_saveQB, json=io_date, headers=headers)
-                        print(req.text)
-                    except Exception as error:
-                        print(error)
-                    else:
-                        with open(out_flie, 'a+', encoding='utf-8') as newFile:
-                            newFile.write(json.dumps(io_date) + '\n')
-                    time.sleep(10)
+    software_Version = "31.1." + str(random.randint(80, 99))
+    iviVersion = '10.1.' + str(random.randint(80, 99))
+    vehicleType = random.randint(1, 14)
+    # 上装工作状态
+    workStatus_count = 0
+    Renumber_WorkStatus = 0
 
+    if qb_range_read < 0:
+        for in_file in QB_IN_FILE_NAME:
+            if vin in in_file:
+                qb_emb_file = QB_FOLDER_PATH + '\\' + in_file
+                qb_out_flie = QB_OUT_FILE_PATH + '\\' + in_file
+                # new_time_2 = parse('2023-12-02 14:00:00')
+                print(qb_emb_file, qb_out_flie)
 
-# full_saveQB()
+                with open(qb_emb_file, 'r', encoding='utf-8') as f_QB:
+                    json_load = json.load(f_QB)
+                    # 获取企标数据数量
+                    qb_range_read = len(json_load)
+
+            qb_io_date = json_load
+            new_time_1 = io_date["time"][0:10] + " " + io_date["time"][11:19]
+            # tc = relativedelta(minutes=random.randint(20, 300))
+            # over_t = relativedelta(minutes=random.randint(300, 500))
+            # new_time_2 += tc
+            # new_time_3 = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            #print(new_time_3)
+            # time_stp = format(get_time_stp(new_time_3), '.0f')
+            # time_stp = int(time_stp)
+            # print(time_stp)
+
+            qb_io_date.pop("time")
+            qb_io_date["recordTime"] = time_stp
+            qb_io_date['count'] = random.randint(1, 5)
+            qb_io_date['format'] = random.randint(0, 1)
+            qb_io_date['canId1'] = '0x0C0DE6D0'
+            qb_io_date['canId2'] = '0x0C10E628'
+            qb_io_date['can1No'] = 1
+            qb_io_date['can2No'] = 2
+            qb_io_date['lockLimitStatus'] = randem_nember(0, 1, 3).ljust(8, '0')
+            if workStatus_count == 0:
+                Renumber_WorkStatus = random.randint(0, 1)
+                qb_io_date['workStatus'] = Renumber_WorkStatus
+                ws_count = random.randint(1,100)
+                workStatus_count += 1
+            elif workStatus_count != 0 and workStatus_count < ws_count:
+                workStatus_count += 1
+                qb_io_date['workStatus'] = Renumber_WorkStatus
+            elif workStatus_count >= ws_count:
+                workStatus_count = 0
+                qb_io_date['workStatus'] = Renumber_WorkStatus
+            qb_io_date['softwareVersion'] = software_Version
+            qb_io_date['vehicleType'] = vehicleType
+            qb_io_date['iviVersion'] = iviVersion
+            qb_io_date['faultType'] = random.randint(0, 2)
+            if qb_io_date['faultType'] != 0:
+                qb_io_date['motorType'] = random.randint(1, 9)
+                qb_io_date['motorFault'] = random.randint(0, 255)
+            else:
+                qb_io_date['motorType'] = 0
+                qb_io_date['motorFault'] = 0
+            # print(qb_io_date)
+            # print(type(qb_io_date))
+            try:
+                # req = requests.post(url=perf_full_saveQB, json=qb_io_date, headers=headers)
+                # print(req.text)
+                print(qb_io_date)
+            except Exception as error:
+                print(error)
+            else:
+                with open(qb_out_flie, 'a+', encoding='utf-8') as newFile:
+                    # newFile.write(json.dumps(qb_io_date) + '\n')
+                    pass
+
+            return qb_range_read
 
 
 def full_save(vin, ws=4):
     GB_FOLDER_PATH = r'D:\data\fulldata\fulldata'
     GB_OUT_FILE_PATH = r'D:\data\fulldata'
-    IN_FILE_NAME = os.listdir(FOLDER_PATH)
+    GB_IN_FILE_NAME = os.listdir(GB_FOLDER_PATH)
     print(IN_FILE_NAME)
     print(vin)
-    for in_file in IN_FILE_NAME:
-        if vin in in_file:
-            gb_emb_file = GB_FOLDER_PATH + '\\' + in_file
-            gb_out_flie = GB_OUT_FILE_PATH + '\\' + in_file
+    for gb_file in GB_IN_FILE_NAME:
+        if vin in gb_file:
+            gb_emb_file = GB_FOLDER_PATH + '\\' + gb_file
+            gb_out_flie = GB_OUT_FILE_PATH + '\\' + gb_file
             is_PARKING = None
+            # 记录充电时长
             PARKING_count = 0
             stateOf_Charge = car_args.sc
             reb_soc = 0
@@ -354,12 +357,14 @@ def full_save(vin, ws=4):
             work_mix = None
             work_sweep = None
             # new_time_2 = parse('2023-12-02 14:00:00')
+            # 企标文件初始长度
+            qb_range_read = -1
             print(emb_file, out_flie)
 
-            with open(gb_emb_file, 'r', encoding='utf-8') as f:
+            with open(gb_emb_file, 'r', encoding='utf-8') as f_GB:
                 #print(len(f.readlines()))
                 #for i in f.readlines()[0:2]:
-                json_load = json.load(f)
+                json_load = json.load(f_GB)
                 for io_date in json_load[-1::-1]:
                     io_date = new_key(io_date)
                     new_time_1 = io_date["time"][0:10] + " " + io_date["time"][11:19]
@@ -381,22 +386,27 @@ def full_save(vin, ws=4):
                         if PARKING_count > 50:
                             PARKING_count = 1
                             io_date['stateOfCharge'] = reb_soc
-                            is_PARKING = random.choices(charging_State, weights=[1, 1, 1, 1, 1, 1], k=1)[0]
+                            is_PARKING = \
+                                random.choices(charging_State, weights=[1, 1, 1, 1, 1, 1], k=1)[0]
                             io_date['chargingState'] = is_PARKING
 
                             if is_PARKING == 'PARKING':
-                                io_date['operatingState'] = random.choices(operating_PARKING, weights=[10, 1, 1, 1], k=1)[0]
+                                io_date['operatingState'] = \
+                                    random.choices(operating_PARKING, weights=[10, 1, 1, 1], k=1)[0]
                             elif is_PARKING == 'OUTAGE':
-                                io_date['operatingState'] = random.choices(operating_OUTAGE, weights=[10, 1, 1, 1], k=1)[0]
+                                io_date['operatingState'] = \
+                                    random.choices(operating_OUTAGE, weights=[10, 1, 1, 1], k=1)[0]
                             else:
-                                io_date['operatingState'] = random.choices(operating_OTHER, weights=[1, 1, 1], k=1)[0]
+                                io_date['operatingState'] = \
+                                    random.choices(operating_OTHER, weights=[1, 1, 1], k=1)[0]
 
                         elif is_PARKING == 'PARKING' and PARKING_count % 2 == 0:
                             stateOf_Charge += 1
                             if stateOf_Charge <= 100:
                                 io_date['stateOfCharge'] = stateOf_Charge
                                 io_date['chargingState'] = is_PARKING
-                                io_date['operatingState'] = random.choices(operating_PARKING, weights=[10, 1, 1, 1], k=1)[0]
+                                io_date['operatingState'] = \
+                                    random.choices(operating_PARKING, weights=[10, 1, 1, 1], k=1)[0]
                                 if PARKING_count == 50:
                                     reb_soc = stateOf_Charge
                             else:
@@ -404,7 +414,9 @@ def full_save(vin, ws=4):
                                 stateOf_Charge = 100
                                 reb_soc = 100
                                 io_date['chargingState'] = is_PARKING
-                                io_date['operatingState'] = random.choices(operating_PARKING, weights=[10, 1, 1, 1], k=1)[0]
+                                io_date['operatingState'] = \
+                                    random.choices(operating_PARKING, weights=[10, 1, 1, 1], k=1)[0]
+
                             PARKING_count += 1
 
                         elif is_PARKING == 'OUTAGE' and PARKING_count % 2 == 0:
@@ -412,7 +424,8 @@ def full_save(vin, ws=4):
                             if stateOf_Charge >= 0:
                                 io_date['stateOfCharge'] = stateOf_Charge
                                 io_date['chargingState'] = is_PARKING
-                                io_date['operatingState'] = random.choices(operating_OUTAGE, weights=[10, 1, 1, 1], k=1)[0]
+                                io_date['operatingState'] = \
+                                    random.choices(operating_OUTAGE, weights=[10, 1, 1, 1], k=1)[0]
                                 if PARKING_count == 50:
                                     reb_soc = stateOf_Charge
                             else:
@@ -420,7 +433,9 @@ def full_save(vin, ws=4):
                                 stateOf_Charge = 0
                                 reb_soc = 0
                                 io_date['chargingState'] = is_PARKING
-                                io_date['operatingState'] = random.choices(operating_OUTAGE, weights=[10, 1, 1, 1], k=1)[0]
+                                io_date['operatingState'] = \
+                                    random.choices(operating_OUTAGE, weights=[10, 1, 1, 1], k=1)[0]
+
                             PARKING_count += 1
 
                         else:
@@ -456,11 +471,14 @@ def full_save(vin, ws=4):
                             io_date['stateOfCharge'] = reb_soc
 
                         if is_PARKING == 'PARKING':
-                            io_date['operatingState'] = random.choices(operating_PARKING, weights=[10, 1, 1, 1], k=1)[0]
+                            io_date['operatingState'] = \
+                                random.choices(operating_PARKING, weights=[10, 1, 1, 1], k=1)[0]
                         elif is_PARKING == 'OUTAGE':
-                            io_date['operatingState'] = random.choices(operating_OUTAGE, weights=[10, 1, 1, 1], k=1)[0]
+                            io_date['operatingState'] = \
+                                random.choices(operating_OUTAGE, weights=[10, 1, 1, 1], k=1)[0]
                         else:
-                            io_date['operatingState'] = random.choices(operating_OTHER, weights=[1, 1, 1], k=1)[0]
+                            io_date['operatingState'] = \
+                                random.choices(operating_OTHER, weights=[1, 1, 1], k=1)[0]
 
                     io_date['alarmBitIdentify'] = randem_nember(0, 1, 19) + '0000000000000'
                     io_date['brakeTravel'] = random.randint(0, 100)
@@ -482,11 +500,12 @@ def full_save(vin, ws=4):
                     list_io_date = []
                     list_io_date.append(io_date)
                     print(list_io_date)
-                    print(type(list_io_date))
+                    # print(type(list_io_date))
                     # print(io_date['gearPosition'])
                     try:
                         full_save = requests.post(url=perf_full_save, json=list_io_date, headers=headers)
                         print(full_save.text)
+                        full_saveQB(vin=vin, time_stp=time_stp, io_date=io_date, qb_range_read=qb_range_read)
                         if io_date['chargingState'] == 'OUTAGE' and ws == 1:
                             mix_sweep_count, work_mix, work_sweep = mix_sweep(io_date=io_date,
                                                                               work_mix=work_mix,
@@ -496,9 +515,9 @@ def full_save(vin, ws=4):
                                                                               vin=vin,
                                                                               collec_time=new_time_3
                                                                               )
-                            min_save = requests.post(url=perf_mixer_saveMixer, json=work_mix, headers=headers)
+                            # min_save = requests.post(url=perf_mixer_saveMixer, json=work_mix, headers=headers)
                             # print(min_save.text)
-                            sweep_save = requests.post(url=perf_sweep_saveSweep, json=work_sweep, headers=headers)
+                            # sweep_save = requests.post(url=perf_sweep_saveSweep, json=work_sweep, headers=headers)
                             # print(sweep_save.text)
                         elif io_date['chargingState'] == 'OUTAGE' and ws == 2:
                             mix_sweep_count, work_mix = mix_sweep(io_date=io_date,
@@ -509,7 +528,7 @@ def full_save(vin, ws=4):
                                                                           vin=vin,
                                                                           collec_time=new_time_3
                                                                           )
-                            min_save = requests.post(url=perf_mixer_saveMixer, json=work_mix, headers=headers)
+                            # min_save = requests.post(url=perf_mixer_saveMixer, json=work_mix, headers=headers)
                             # print(min_save.text)
                         elif io_date['chargingState'] == 'OUTAGE' and ws == 3:
                             mix_sweep_count, work_sweep = mix_sweep(io_date=io_date,
@@ -520,7 +539,7 @@ def full_save(vin, ws=4):
                                                                   vin=vin,
                                                                   collec_time=new_time_3
                                                                   )
-                            sweep_save = requests.post(url=perf_sweep_saveSweep, json=work_sweep, headers=headers)
+                            # sweep_save = requests.post(url=perf_sweep_saveSweep, json=work_sweep, headers=headers)
                             # print(sweep_save.text)
                         else:
                             pass
@@ -535,41 +554,40 @@ def full_save(vin, ws=4):
 
 
 
-
-def main(num, ws=4):
-    if num == 1:
-        vin_list = ['L58ZC5VC9ND003096', 'LEWUMC180PF101060', 'LEWUMC187MF146721']
-        # vin_list = ['LEWUMC187MF146721']
-        for vin in vin_list:
-            full_gb = Thread(target=full_save, args=(vin, ws))
-            full_gb.start()
-            # full_qb = Thread(target=full_saveQB, args=(vin,))
-            # full_qb.start()
-        full_gb.join()
-        # full_qb.join()
-
-    elif num == 2:
-        FOLDER_PATH = r'D:\data\fulldata\fulldata'
-        IN_FILE_NAME = os.listdir(FOLDER_PATH)
-        for vin in IN_FILE_NAME:
-                lstr = vin.find('_')
-                rstr = vin.rfind('.')
-                vin = vin[lstr + 1: rstr]
-                full_save(vin)
-                # full_saveQB(vin)
-
-
-
-if __name__ == '__main__':
-    car_info = argparse.ArgumentParser()
-    car_info.add_argument('-sc', type=int, default=-1, help='车电量')
-    car_info.add_argument('-mli', type=int, default=-1, help='车里程')
-    car_info.add_argument('-ws', type=int, default=4,
-                          help='输入1: 加入搅拌和扫刷状态，输入2: 加入搅拌状态，输入3：加入扫刷状态, 输入4：不加任何状态')
-    car_args = car_info.parse_args()
-    if car_args.sc != -1 and car_args.mli != -1:
-        while True:
-            main(num=1, ws=car_args.ws)
-    else:
-        print('输入的参数不正确，请输入 -h 命令查看参数')
+# def main(num, ws=4):
+#     if num == 1:
+#         vin_list = ['L58ZC5VC9ND003096', 'LEWUMC180PF101060', 'LEWUMC187MF146721']
+#         # vin_list = ['LEWUMC187MF146721']
+#         for vin in vin_list:
+#             full_gb = Thread(target=full_save, args=(vin, ws))
+#             full_gb.start()
+#             # full_qb = Thread(target=full_saveQB, args=(vin,))
+#             # full_qb.start()
+#         full_gb.join()
+#         # full_qb.join()
+#
+#     elif num == 2:
+#         FOLDER_PATH = r'D:\data\fulldata\fulldata'
+#         IN_FILE_NAME = os.listdir(FOLDER_PATH)
+#         for vin in IN_FILE_NAME:
+#                 lstr = vin.find('_')
+#                 rstr = vin.rfind('.')
+#                 vin = vin[lstr + 1: rstr]
+#                 full_save(vin)
+#                 # full_saveQB(vin)
+#
+#
+#
+# if __name__ == '__main__':
+#     car_info = argparse.ArgumentParser()
+#     car_info.add_argument('-sc', type=int, default=-1, help='车电量')
+#     car_info.add_argument('-mli', type=int, default=-1, help='车里程')
+#     car_info.add_argument('-ws', type=int, default=4,
+#                           help='输入1: 加入搅拌和扫刷状态，输入2: 加入搅拌状态，输入3：加入扫刷状态, 输入4：不加任何状态')
+#     car_args = car_info.parse_args()
+#     if car_args.sc != -1 and car_args.mli != -1:
+#         while True:
+#             main(num=1, ws=car_args.ws)
+#     else:
+#         print('输入的参数不正确，请输入 -h 命令查看参数')
 
