@@ -290,3 +290,11 @@ print(a)
 
 # a1 = {'name': 'zhouliudong', 'age': 18, 'paly': {'play1': 'dog', 'play2': 'cat'}}
 # print(a1.get('paly').get('play1'))
+
+a = 'RUN'
+PARKING_count = 33
+
+if a == "RUN1" and \
+            (PARKING_count > 3 and PARKING_count <= 33) or \
+            (PARKING_count > 88 and PARKING_count <= 110):
+    print('todo')

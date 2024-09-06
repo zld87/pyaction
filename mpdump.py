@@ -5,5 +5,5 @@ def request(flow):
         #flow.request.headers['User-Agent'] = 'zldcccc'
         #flow.request.url = '123'
     print(dir(flow))
-    ctx.log.info( flow.request.json)
+    ctx.log.info(flow.request.json)
     ctx.log.error("bbbbb" + str(flow.response))
