@@ -266,7 +266,7 @@ has_attribute = hasattr(str_obj, attribute_name)
 print(has_attribute)  # 输出：False，因为字符串对象没有isdigit()方法，但有isdigit属性（值为False）和isdecimal属性（值为True）
 
 
-a = os.path.exists(os.path.join('/Users/zhouliudong/pyaction/', '*.py'))
+a = os.path.exists(os.path.join('/Users/zhouliudong/pyaction/', 'kafka2.py'))
 print(a)
 # while not (a := os.path.exists(os.path.join('/Users/zhouliudong/pyaction/', '*.py'))):
 #     print(123)
@@ -291,10 +291,17 @@ print(a)
 # a1 = {'name': 'zhouliudong', 'age': 18, 'paly': {'play1': 'dog', 'play2': 'cat'}}
 # print(a1.get('paly').get('play1'))
 
-a = 'RUN'
-PARKING_count = 33
+# a = 'RUN'
+# PARKING_count = 33
+#
+# if a == "RUN1" and \
+#             (PARKING_count > 3 and PARKING_count <= 33) or \
+#             (PARKING_count > 88 and PARKING_count <= 110):
+#     print('todo')
 
-if a == "RUN1" and \
-            (PARKING_count > 3 and PARKING_count <= 33) or \
-            (PARKING_count > 88 and PARKING_count <= 110):
-    print('todo')
+
+
+str_obj = "Hello, world!"
+attribute_name = "upper"  # isdigit()方法用于检查字符串是否只包含数字字符
+has_attribute = hasattr(str_obj, attribute_name)
+print(has_attribute)

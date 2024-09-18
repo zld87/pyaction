@@ -386,7 +386,7 @@ def full_save(vin, ws=4):
             # 企标存放路径
             qb_out_flie = ''
 
-            print(emb_file, out_flie)
+            print(gb_emb_file, gb_out_flie)
 
             with open(gb_emb_file, 'r', encoding='utf-8') as f_GB:
                 # print(len(f.readlines()))
