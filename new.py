@@ -305,3 +305,12 @@ str_obj = "Hello, world!"
 attribute_name = "upper"  # isdigit()方法用于检查字符串是否只包含数字字符
 has_attribute = hasattr(str_obj, attribute_name)
 print(has_attribute)
+
+a = {'name': 'zhouliudong', 'age': 18}
+b = ('zld', 19)
+
+def zld(*b, **a):
+    print(name)
+
+
+zld(*b, **a)

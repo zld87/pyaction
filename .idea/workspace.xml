@@ -28,8 +28,160 @@
   <component name="ChangeListManager">
     <list default="true" id="fff6aa7c-12aa-4f9d-adc2-02de7d580057" name="Default Changelist" comment="2024.9.6 完成矿卡脚本造数据">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apicreatedate.py" beforeDir="false" afterPath="$PROJECT_DIR$/apicreatedate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0001.png" beforeDir="false" afterPath="$PROJECT_DIR$/0001.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/bgImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conrds.py" beforeDir="false" afterPath="$PROJECT_DIR$/conrds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka3.py" beforeDir="false" afterPath="$PROJECT_DIR$/kafka3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moving_pic.py" beforeDir="false" afterPath="$PROJECT_DIR$/moving_pic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpdump.py" beforeDir="false" afterPath="$PROJECT_DIR$/mpdump.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new.py" beforeDir="false" afterPath="$PROJECT_DIR$/new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sliImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/sliImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/mitmproxy/ctx.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/mitmproxy/ctx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium-4.23.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium-4.23.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium-4.23.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium-4.23.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium-4.23.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium-4.23.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/chrome/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/chrome/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/chromium/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/chromium/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/chromium/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/chromium/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/actions/input_device.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/actions/input_device.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/actions/pointer_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/actions/pointer_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/actions/wheel_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/actions/wheel_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/bidi/cdp.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/bidi/cdp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/accessibility.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/animation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/audits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/autofill.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/background_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/browser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/cache_storage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/cast.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/console.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/css.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/debugger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/device_access.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/device_orientation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/dom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/dom_debugger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/dom_snapshot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/dom_storage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/emulation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/event_breakpoints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/fed_cm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/fetch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/headless_experimental.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/heap_profiler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/indexed_db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/input_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/inspector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/layer_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/media.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/memory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/overlay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/performance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/performance_timeline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/preload.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/profiler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/pwa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/py.typed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/runtime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/schema.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/security.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/service_worker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/storage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/system_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/target.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/tethering.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/tracing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/web_audio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v125/web_authn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/accessibility.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/animation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/audits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/autofill.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/background_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/browser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/cache_storage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/cast.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/console.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/css.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/debugger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/device_access.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/device_orientation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/dom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/dom_debugger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/dom_snapshot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/dom_storage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/emulation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/event_breakpoints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/extensions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/fed_cm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/fetch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/headless_experimental.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/heap_profiler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/indexed_db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/input_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/inspector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/layer_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/media.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/memory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/overlay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/performance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/performance_timeline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/preload.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/profiler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/pwa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/py.typed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/runtime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/schema.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/security.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/service_worker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/storage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/system_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/target.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/tethering.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/tracing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/web_audio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v126/web_authn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v127/fed_cm.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/devtools/v127/fed_cm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/macos/selenium-manager" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/macos/selenium-manager" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/print_page_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/print_page_options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/timeouts.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/timeouts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/windows/selenium-manager.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/common/windows/selenium-manager.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/firefox/firefox_profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/firefox/firefox_profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/firefox/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/firefox/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/ie/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/ie/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/remote/file_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/remote/file_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/remote/findElements.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/remote/findElements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/remote/getAttribute.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/remote/getAttribute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/remote/isDisplayed.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/remote/isDisplayed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/remote/websocket_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/remote/websocket_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/webkitgtk/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/webkitgtk/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/wpewebkit/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/selenium/webdriver/wpewebkit/service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +217,7 @@
       </set>
     </option>
   </component>
-  <component name="JupyterTrust" id="7cf74755-44b0-475c-9c85-489bc0fed9f7" />
+  <component name="JupyterTrust" id="f6e5df72-569c-4e07-b6b5-3233988519f0" />
   <component name="ProjectId" id="1llgAmEqKFxWEqwiJ1IqqEtQUXn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -93,29 +245,7 @@
       <recent name="$PROJECT_DIR$/wordpress/common" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.new">
-    <configuration name="20201.8.30" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pyaction" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20201.8.30.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.conrds">
     <configuration name="apicreatedate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyaction" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,6 +260,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apicreatedate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="conrds" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyaction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conrds.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,11 +380,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.conrds" />
+        <item itemvalue="Python.moving_pic" />
+        <item itemvalue="Python.sql_util" />
         <item itemvalue="Python.date_source" />
         <item itemvalue="Python.apicreatedate" />
-        <item itemvalue="Python.moving_pic" />
-        <item itemvalue="Python.20201.8.30" />
-        <item itemvalue="Python.sql_util" />
       </list>
     </recent_temporary>
   </component>
@@ -331,6 +483,9 @@
       <workItem from="1726279330313" duration="268000" />
       <workItem from="1726305647231" duration="2000" />
       <workItem from="1726620220886" duration="5212000" />
+      <workItem from="1729492507778" duration="254000" />
+      <workItem from="1729493168308" duration="413000" />
+      <workItem from="1729493638124" duration="7028000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1725245738091</created>
@@ -426,10 +581,10 @@
       <screen x="-3440" y="25" width="3440" height="1415" />
     </state>
     <state x="-2256" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725330285653" />
-    <state x="168" y="114" width="1344" height="820" key="DiffContextDialog" timestamp="1725336833013">
+    <state x="168" y="114" width="1344" height="820" key="DiffContextDialog" timestamp="1729491765552">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="168" y="114" width="1344" height="820" key="DiffContextDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1725336833013" />
+    <state x="168" y="114" width="1344" height="820" key="DiffContextDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1729491765552" />
     <state x="649" y="460" key="Github.CreateGistDialog" timestamp="1725333472091">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -439,26 +594,26 @@
     </state>
     <state x="-1844" y="633" width="247" height="318" key="Github.ShareDialog/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725329805315" />
     <state x="779" y="465" width="251" height="318" key="Github.ShareDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1725333866647" />
-    <state width="992" height="207" key="GridCell.Tab.0.bottom" timestamp="1726279321290">
+    <state width="1638" height="235" key="GridCell.Tab.0.bottom" timestamp="1729502167467">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="1699" height="447" key="GridCell.Tab.0.bottom/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725330263269" />
-    <state width="992" height="207" key="GridCell.Tab.0.bottom/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1726279321290" />
-    <state width="992" height="207" key="GridCell.Tab.0.center" timestamp="1726279321289">
+    <state width="1638" height="235" key="GridCell.Tab.0.bottom/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1729502167467" />
+    <state width="1638" height="235" key="GridCell.Tab.0.center" timestamp="1729502167466">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="1699" height="447" key="GridCell.Tab.0.center/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725330263269" />
-    <state width="992" height="207" key="GridCell.Tab.0.center/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1726279321289" />
-    <state width="992" height="207" key="GridCell.Tab.0.left" timestamp="1726279321289">
+    <state width="1638" height="235" key="GridCell.Tab.0.center/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1729502167466" />
+    <state width="1638" height="235" key="GridCell.Tab.0.left" timestamp="1729502167466">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="1699" height="447" key="GridCell.Tab.0.left/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725330263269" />
-    <state width="992" height="207" key="GridCell.Tab.0.left/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1726279321289" />
-    <state width="992" height="207" key="GridCell.Tab.0.right" timestamp="1726279321290">
+    <state width="1638" height="235" key="GridCell.Tab.0.left/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1729502167466" />
+    <state width="1638" height="235" key="GridCell.Tab.0.right" timestamp="1729502167467">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="1699" height="447" key="GridCell.Tab.0.right/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725330263269" />
-    <state width="992" height="207" key="GridCell.Tab.0.right/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1726279321290" />
+    <state width="1638" height="235" key="GridCell.Tab.0.right/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1729502167467" />
     <state width="1638" height="207" key="GridCell.Tab.1.bottom" timestamp="1721888845697">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -475,11 +630,11 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.1.right/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1721888845696" />
-    <state x="589" y="262" key="RollbackChangesDialog" timestamp="1725341716726">
+    <state x="589" y="262" key="RollbackChangesDialog" timestamp="1729474755997">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="-2234" y="352" key="RollbackChangesDialog/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725329689592" />
-    <state x="589" y="262" key="RollbackChangesDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1725341716726" />
+    <state x="589" y="262" key="RollbackChangesDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1729474755997" />
     <state x="349" y="173" key="SettingsEditor" timestamp="1725341958428">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -502,11 +657,15 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="678" y="275" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1725245027206" />
-    <state x="641" y="455" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1725343311800">
+    <state x="641" y="455" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1729474595607">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="-2127" y="619" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725329821167" />
-    <state x="641" y="455" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1725343311800" />
+    <state x="641" y="455" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1729474595607" />
+    <state x="593" y="254" key="git4idea.branch.GitSmartOperationDialog" timestamp="1729474635384">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="593" y="254" key="git4idea.branch.GitSmartOperationDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1729474635384" />
     <state x="505" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1721793226001">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -579,9 +738,9 @@
     <SUITE FILE_PATH="coverage/pyaction$rematch1.coverage" NAME="rematch1 Coverage Results" MODIFIED="1663323352748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$testreq.coverage" NAME="testreq Coverage Results" MODIFIED="1665719660454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$kafka4.coverage" NAME="kafka4 Coverage Results" MODIFIED="1693241780811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyaction$moving_pic.coverage" NAME="moving_pic Coverage Results" MODIFIED="1724291397027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyaction$new.coverage" NAME="new Coverage Results" MODIFIED="1725848427373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyaction$conrds.coverage" NAME="conrds Coverage Results" MODIFIED="1623390957214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyaction$new.coverage" NAME="new Coverage Results" MODIFIED="1729492538356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyaction$moving_pic.coverage" NAME="moving_pic Coverage Results" MODIFIED="1729498097768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyaction$conrds.coverage" NAME="conrds Coverage Results" MODIFIED="1729502167459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$kafkazld1.coverage" NAME="kafkazld1 Coverage Results" MODIFIED="1681443064347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$kafkadata.coverage" NAME="kafkadata Coverage Results" MODIFIED="1670401298101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$2021_12_20.coverage" NAME="2021.12.20 Coverage Results" MODIFIED="1654011997867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
