@@ -13,6 +13,7 @@ kafkaip = "192.168.100.209:19092,192.168.100.209:19093,192.168.100.209:19094"
 #消费者
 consumer = KafkaConsumer('jenkin_zld_out1',
     auto_offset_reset='earliest',
+    enable_auto_commit=F,
     #bootstrap_servers=["192.168.100.181:9092","192.168.100.184:9092","192.168.100.66:9092"]
     #bootstrap_servers=["192.168.100.209:19092","192.168.100.209:19093","192.168.100.209:19094"]
     bootstrap_servers=kafkaip.split(",")
@@ -29,7 +30,7 @@ producer = KafkaProducer(
 )
 
 def consumer_function():
-    mum=0
+    mum = 0
     for message in consumer:
         '''print("%s:%d:%d: key=%s value=%s time=%s" % (message.topic,
                                              message.partition,
@@ -48,6 +49,8 @@ def consumer_function():
         with open("/Users/zhouliudong/Desktop/grpc.csv", "a+", encoding="utf-8") as f:
             f.write(time2+'   '+sttmum+'\n')
 
+        consumer.commit()
+
 
 
 def producer_function():
@@ -64,9 +67,9 @@ def producer_function():
 
 
 if __name__ == "__main__":
-    cm=Thread(target=consumer_function)
+    cm = Thread(target=consumer_function)
     time.sleep(1)
-    pd=Thread(target=producer_function)
+    pd = Thread(target=producer_function)
     cm.start()
     pd.start()
 
