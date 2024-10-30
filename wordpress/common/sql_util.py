@@ -19,6 +19,7 @@ def conn(connect_kwargs):
     return connection
 
 
+
 def do_query_type(select_type, cursor):
     """ 处理查询类型，封装pymysql 中查询函数，
     :param select_type:  处理do_sql中 的查询逻辑。

@@ -310,7 +310,13 @@ a = {'name': 'zhouliudong', 'age': 18}
 b = ('zld', 19)
 
 def zld(*b, **a):
-    print(name)
+    print(b)
 
 
 zld(*b, **a)
+
+
+valid = [True, False]
+
+c = random.choices(valid, weights=[10, 1], k=4)
+print(c)

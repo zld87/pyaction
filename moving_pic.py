@@ -1,3 +1,4 @@
+from flask import Flask, jsonify
 import requests
 from bs4 import BeautifulSoup
 import re, time, os, random
@@ -9,7 +10,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 
-
+app = Flask(__name__)
 
 # 轮廓检测
 def get_pos_1(imageSrc):
@@ -100,7 +101,8 @@ url2 = 'https://www.zhihu.com/'
 
 
 # 创建Chrome WebDriver对象
-def get_pic(get_type=1):
+@app.route('/get_pic/<any(1, 2):get_type>')
+def get_pic(get_type=2):
     driver = webdriver.Chrome()
     try:
         driver.get(url=url)
@@ -116,7 +118,7 @@ def get_pic(get_type=1):
 
             driver.implicitly_wait(3)  # 使用浏览器隐式等待3秒
 
-            # print(passClick.text)
+            # print(loginType.text)
             # time.sleep(5)
 
             # 设置账号和密码
@@ -207,7 +209,7 @@ def get_pic(get_type=1):
                 i += 1
 
             # 移动完之后，松开鼠标
-            ActionChains(driver).release().perform()
+            ActionChains(driver).release()
             # 整体等待5秒看结果
             time.sleep(3)
 
@@ -216,6 +218,9 @@ def get_pic(get_type=1):
     finally:
         # 关闭浏览器
         driver.quit()
+    # return 'ok'
 
 
-get_pic(2)
+# get_pic(2)
+if __name__ == '__main__':
+    app.run(port=1234, debug=True)
