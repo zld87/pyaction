@@ -49273,3 +49273,167 @@ Traceback (most recent call last):
     from flask import Flask, url_for, redirect
 ModuleNotFoundError: No module named 'flask'
 unable to load app 0 (mountpoint='') (callable not found or import error)
+Respawned uWSGI worker 2 (new pid: 29676)
+OOPS ! failed loading app in worker 1 (pid 29656) :( trying again...
+DAMN ! worker 1 (pid: 29656) died :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 29677)
+OOPS ! failed loading app in worker 4 (pid 29653) :( trying again...
+DAMN ! worker 4 (pid: 29653) died :( trying respawn ...
+Respawned uWSGI worker 4 (new pid: 29678)
+OOPS ! failed loading app in worker 3 (pid 29652) :( trying again...
+DAMN ! worker 3 (pid: 29652) died :( trying respawn ...
+Respawned uWSGI worker 3 (new pid: 29679)
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+Traceback (most recent call last):
+    from flask import Flask, url_for, redirect
+  File "flaskpy.py", line 1, in <module>
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+OOPS ! failed loading app in worker 3 (pid 29679) :( trying again...
+DAMN ! worker 3 (pid: 29679) died :( trying respawn ...
+Respawned uWSGI worker 3 (new pid: 29680)
+OOPS ! failed loading app in worker 4 (pid 29678) :( trying again...
+DAMN ! worker 4 (pid: 29678) died :( trying respawn ...
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Respawned uWSGI worker 4 (new pid: 29702)
+OOPS ! failed loading app in worker 3 (pid 29680) :( trying again...
+DAMN ! worker 3 (pid: 29680) died :( trying respawn ...
+Respawned uWSGI worker 3 (new pid: 29703)
+OOPS ! failed loading app in worker 1 (pid 29677) :( trying again...
+DAMN ! worker 1 (pid: 29677) died :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 29704)
+OOPS ! failed loading app in worker 2 (pid 29676) :( trying again...
+DAMN ! worker 2 (pid: 29676) died :( trying respawn ...
+Respawned uWSGI worker 2 (new pid: 29705)
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+OOPS ! failed loading app in worker 2 (pid 29705) :( trying again...
+DAMN ! worker 2 (pid: 29705) died :( trying respawn ...
+Respawned uWSGI worker 2 (new pid: 29706)
+OOPS ! failed loading app in worker 1 (pid 29704) :( trying again...
+DAMN ! worker 1 (pid: 29704) died :( trying respawn ...
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Respawned uWSGI worker 1 (new pid: 29707)
+OOPS ! failed loading app in worker 2 (pid 29706) :( trying again...
+DAMN ! worker 2 (pid: 29706) died :( trying respawn ...
+Respawned uWSGI worker 2 (new pid: 29708)
+OOPS ! failed loading app in worker 3 (pid 29703) :( trying again...
+DAMN ! worker 3 (pid: 29703) died :( trying respawn ...
+Respawned uWSGI worker 3 (new pid: 29709)
+OOPS ! failed loading app in worker 4 (pid 29702) :( trying again...
+DAMN ! worker 4 (pid: 29702) died :( trying respawn ...
+Respawned uWSGI worker 4 (new pid: 29710)
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+  File "flaskpy.py", line 1, in <module>
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+    from flask import Flask, url_for, redirect
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+    from flask import Flask, url_for, redirect
+unable to load app 0 (mountpoint='') (callable not found or import error)
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+OOPS ! failed loading app in worker 4 (pid 29710) :( trying again...
+DAMN ! worker 4 (pid: 29710) died :( trying respawn ...
+Respawned uWSGI worker 4 (new pid: 29711)
+OOPS ! failed loading app in worker 3 (pid 29709) :( trying again...
+DAMN ! worker 3 (pid: 29709) died :( trying respawn ...
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Respawned uWSGI worker 3 (new pid: 29712)
+OOPS ! failed loading app in worker 4 (pid 29711) :( trying again...
+DAMN ! worker 4 (pid: 29711) died :( trying respawn ...
+Respawned uWSGI worker 4 (new pid: 29713)
+OOPS ! failed loading app in worker 2 (pid 29708) :( trying again...
+DAMN ! worker 2 (pid: 29708) died :( trying respawn ...
+Respawned uWSGI worker 2 (new pid: 29714)
+OOPS ! failed loading app in worker 1 (pid 29707) :( trying again...
+DAMN ! worker 1 (pid: 29707) died :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 29715)
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+OOPS ! failed loading app in worker 1 (pid 29715) :( trying again...
+DAMN ! worker 1 (pid: 29715) died :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 29716)
+OOPS ! failed loading app in worker 2 (pid 29714) :( trying again...
+DAMN ! worker 2 (pid: 29714) died :( trying respawn ...
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+Traceback (most recent call last):
+  File "flaskpy.py", line 1, in <module>
+    from flask import Flask, url_for, redirect
+ModuleNotFoundError: No module named 'flask'
+unable to load app 0 (mountpoint='') (callable not found or import error)
