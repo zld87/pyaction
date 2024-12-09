@@ -27,30 +27,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fff6aa7c-12aa-4f9d-adc2-02de7d580057" name="Default Changelist" comment="2024.9.6 完成矿卡脚本造数据">
-      <change afterPath="$PROJECT_DIR$/Fflask/conrds.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20221021_subprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/20221021_subprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fflask/flaskpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fflask/flaskpy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fflask/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Fflask/uwsgi.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fflask/uwsgi.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fflask/uwsgi.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Fflask/uwsgi.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fflask/uwsgi.pid" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bgImage.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/conrds.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/date_source.py" beforeDir="false" afterPath="$PROJECT_DIR$/date_source.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/display.py" beforeDir="false" afterPath="$PROJECT_DIR$/display.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka3.py" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDate/kafka3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka4.py" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDate/kafka4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka_danwei.py" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDate/kafka_danwei.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkadata.py" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDate/kafkadata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkazld.py" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDate/kafkazld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkazld1.py" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDate/kafkazld1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkazld2.py" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDate/kafkazld2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkazld3.py" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDate/kafkazld3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moving_pic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new.py" beforeDir="false" afterPath="$PROJECT_DIR$/new.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sliImage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/common/sql_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/common/sql_util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,6 +350,7 @@
       <workItem from="1731924100858" duration="17748000" />
       <workItem from="1732149999676" duration="35506000" />
       <workItem from="1732861467943" duration="48153000" />
+      <workItem from="1733728576761" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1725245738091</created>
@@ -452,7 +436,21 @@
       <option name="project" value="LOCAL" />
       <updated>1730277635326</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="12/09更新">
+      <created>1733728683028</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733728683028</updated>
+    </task>
+    <task id="LOCAL-00014" summary="12/09更新，第二次">
+      <created>1733728880669</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733728880669</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +489,9 @@
     <MESSAGE value="2024.9.6 完成矿卡脚本造数据" />
     <MESSAGE value="10.21更新redis，更新movingpic功能" />
     <MESSAGE value="2024.10.30" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.10.30" />
+    <MESSAGE value="12/09更新" />
+    <MESSAGE value="12/09更新，第二次" />
+    <option name="LAST_COMMIT_MESSAGE" value="12/09更新，第二次" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="200" key="#Deployment" timestamp="1725009352787">
