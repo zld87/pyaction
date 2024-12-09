@@ -1,11 +1,8 @@
 from kafka import KafkaProducer
 from kafka import KafkaConsumer
-from kafkadata import *
 import json
-import random,time,requests
-from datetime import datetime
-from dateutil.parser import parse
-from dateutil.relativedelta import relativedelta
+import time
+
 kafkainip = "192.168.100.181:9092,192.168.100.184:9092,192.168.100.66:9092"
 kafkainip1 = "192.168.20.188:9092"
 producer = KafkaProducer(
