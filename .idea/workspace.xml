@@ -21,7 +21,7 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -494,10 +494,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="12/09更新，第二次" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="200" key="#Deployment" timestamp="1725009352787">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state x="440" y="200" key="#Deployment/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1725009352787" />
     <state x="555" y="365" key="#Notifications" timestamp="1725256405285">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -510,10 +506,10 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="569" y="343" key="#com.intellij.fileTypes.FileTypeChooser/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1730250019436" />
-    <state x="168" y="114" width="1344" height="820" key="DiffContextDialog" timestamp="1730250327275">
+    <state x="168" y="114" width="1344" height="820" key="DiffContextDialog" timestamp="1733728834959">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="168" y="114" width="1344" height="820" key="DiffContextDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1730250327275" />
+    <state x="168" y="114" width="1344" height="820" key="DiffContextDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1733728834959" />
     <state x="649" y="460" key="Github.CreateGistDialog" timestamp="1725333472091">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -563,11 +559,11 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.1.right/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1731649805213" />
-    <state x="589" y="262" key="RollbackChangesDialog" timestamp="1731995788525">
+    <state x="589" y="262" key="RollbackChangesDialog" timestamp="1733728863647">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="-2234" y="352" key="RollbackChangesDialog/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725329689592" />
-    <state x="589" y="262" key="RollbackChangesDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1731995788525" />
+    <state x="589" y="262" key="RollbackChangesDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1733728863647" />
     <state x="349" y="173" key="SettingsEditor" timestamp="1725341958428">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -576,11 +572,11 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="720" y="456" key="VCS.EditChangelistDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1725336207466" />
-    <state x="346" y="197" key="Vcs.Push.Dialog.v2" timestamp="1732859635487">
+    <state x="346" y="197" key="Vcs.Push.Dialog.v2" timestamp="1733729016523">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="-2732" y="262" key="Vcs.Push.Dialog.v2/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725330325027" />
-    <state x="346" y="197" key="Vcs.Push.Dialog.v2/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1732859635487" />
+    <state x="346" y="197" key="Vcs.Push.Dialog.v2/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1733729016523" />
     <state x="346" y="197" key="Vcs.Push.Dialog.v2/0.25.1680.1025@0.25.1680.1025" timestamp="1725333293428" />
     <state x="100" y="125" width="1480" height="825" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1725608503108">
       <screen x="0" y="25" width="1680" height="1025" />
@@ -595,10 +591,10 @@
     </state>
     <state x="-2127" y="619" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725329821167" />
     <state x="641" y="455" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1730277663261" />
-    <state x="593" y="254" key="git4idea.branch.GitSmartOperationDialog" timestamp="1730705065235">
+    <state x="593" y="254" key="git4idea.branch.GitSmartOperationDialog" timestamp="1733728981351">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="593" y="254" key="git4idea.branch.GitSmartOperationDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1730705065235" />
+    <state x="593" y="254" key="git4idea.branch.GitSmartOperationDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1733728981351" />
     <state x="505" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1731555472395">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
