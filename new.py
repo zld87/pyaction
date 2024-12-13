@@ -8,6 +8,7 @@ from dateutil.parser import parse
 import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from datetime import datetime
 
 
 print(os.getcwd())
@@ -252,7 +253,7 @@ while (n := n - 1) + 1:
 print(bin(255))
 
 
-
+# requests.request(method='post', )
 
 
 str_obj = "Hello, world!"
@@ -266,7 +267,7 @@ has_attribute = hasattr(str_obj, attribute_name)
 print(has_attribute)  # 输出：False，因为字符串对象没有isdigit()方法，但有isdigit属性（值为False）和isdecimal属性（值为True）
 
 
-a = os.path.exists(os.path.join('/Users/zhouliudong/pyaction/', 'kafka2.py'))
+a = os.path.exists(os.path.join('/Users/zhouliudong/pyaction/', 'display.py'))
 print(a)
 # while not (a := os.path.exists(os.path.join('/Users/zhouliudong/pyaction/', '*.py'))):
 #     print(123)
@@ -305,3 +306,124 @@ str_obj = "Hello, world!"
 attribute_name = "upper"  # isdigit()方法用于检查字符串是否只包含数字字符
 has_attribute = hasattr(str_obj, attribute_name)
 print(has_attribute)
+
+a = {'name': 'zhouliudong', 'age': 18}
+b = ('zld', 19)
+
+def zld(*b, **a):
+    try:
+        print(a)
+        # return a
+    except Exception as aa:
+        print(aa)
+    else:
+        print('zld')
+    finally:
+        print(b)
+
+zld(*b, **a)
+
+
+valid = [True, False]
+
+c = random.choices(valid, weights=[10, 1], k=4)
+print(c)
+
+
+yy = '12323'
+print(yy.strip('"'))
+
+# import zmq
+#
+# context = zmq.Context()
+# socket = context.socket(zmq.REQ)
+# socket.connect("tcp://localhost:8800")
+#
+# msg1 = {
+#             "TYPE": "REP_HMIRunStatus",
+#             'time': str(format(time.time(), '.0f')),
+#             "DATA": {
+#                     # 辅助功能：0为未开启，1为倒垃圾，2为充电，3为加水。
+#                     "AUXOPERATE": random.choices([0, 1, 2, 3], weights=[1, 10, 10, 10], k=1)[0],
+#                      # 偏航角：范围 -90度到90度
+#                      "DirectionAngle": float(format(random.uniform(-90, 90), '.1f')),
+#                      # 车辆档位， 0为P档，1为N档，2为R档，3为D档。
+#                      "GEAR": random.choices([0, 1, 2, 3], weights=[1, 1, 1, 10], k=1)[0],
+#                      # 车辆模式：1 自动驾驶 2 本地驾驶 3 远程遥控。
+#                      "MODE": 2,
+#                      # 车辆自检状态：0为检测中，1为自检完成。
+#                      "RUNSTATE": random.choices([0, 1], weights=[1, 1], k=1)[0],
+#                      # 清扫作业启动状态：0为未清扫，1为清扫。（后续细分清扫模式可扩展）
+#                      "SWEEP": random.choices([0, 1], weights=[10, 5], k=1)[0],
+#                      # 红绿灯识别结果：0为未识别，1为绿灯，2为黄灯，3为红灯。
+#                      "TRAFFICLIGHT": random.choices([0, 1, 2, 3], weights=[10, 5, 1, 10], k=1)[0],
+#                      # 转向信号，0为直行，1为左转，2为右转。
+#                      "TURNROUND": random.choices([0, 1, 2], weights=[10, 1, 1], k=1)[0],
+#                      # 车速，单位为km/h
+#                      "VCAR": random.randint(10, 30),
+#                      # 启/停自动驾驶信号，false为停止，true为启动。
+#                      "bStart": 'false',
+#                      # 车辆故障的故障码，多个故障码之间用“|”符号隔离。
+#                      "ERROR": '',
+#                      "OBSTACLES": []
+#                      }
+#         }
+#
+#
+# newmsg = {
+#     'DATA': {
+#         'AUXOPERATE': 0,
+#         'B': 0.0,
+#         'DirectionAngle': 0.0,
+#         'GEAR': 0,
+#         'L': 0.0,
+#         'MODE': 0,
+#         'OBSTACLES': [],
+#         'RUNSTATE': 0,
+#         'SWEEP': 0,
+#         'TRAFFICLIGHT': 0,
+#         'TURNROUND': 0,
+#         'VCAR': 0,
+#         'bStart': True,
+#         'headingAngle': 0.0
+#     },
+#     'TYPE': 'REQ_HMIRunStatus'
+# }
+#
+# #客户端必须要先发送消息，然后在接收消息
+# if __name__ == '__main__':
+#     print('zmq client start....')
+#     for i in range(1, 5):
+#         socket.send_json(newmsg)
+#         message = socket.recv_json()
+#         print(message)
+#         time.sleep(5)
+
+if is_fault := bool(random.choices([True, False], weights=[1, 10], k=1)[0]):
+    print(is_fault)
+else:
+    print(is_fault)
+
+
+
+# 飞书机器人
+# url = 'https://open.feishu.cn/open-apis/bot/v2/hook/44155aeb-b5f3-48d1-83d4-bbb846b3db81'
+#
+# data1 = {"msg_type": "text", "content": {"text": "request example"}}
+#
+# headers = {"Content-Type": "application/json"}
+#
+# r = requests.post(url=url, headers=headers, json=data1)
+# print(r.text)
+
+
+
+i = '77'
+print(int(i, 10))
+
+
+data = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+data = data[0:10] + 'T' + data[11:19] + 'Z'
+print(data)
+
+

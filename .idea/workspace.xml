@@ -27,9 +27,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fff6aa7c-12aa-4f9d-adc2-02de7d580057" name="Default Changelist" comment="2024.9.6 完成矿卡脚本造数据">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apicreatedate.py" beforeDir="false" afterPath="$PROJECT_DIR$/apicreatedate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new.py" beforeDir="false" afterPath="$PROJECT_DIR$/new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fflask/uwsgi.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fflask/uwsgi.pid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conrds.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moving_pic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sliImage.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +69,7 @@
       </set>
     </option>
   </component>
-  <component name="JupyterTrust" id="7cf74755-44b0-475c-9c85-489bc0fed9f7" />
+  <component name="JupyterTrust" id="23aabf16-fbfc-4da7-a557-b7d112aef2e4" />
   <component name="ProjectId" id="1llgAmEqKFxWEqwiJ1IqqEtQUXn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -88,13 +92,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wordpress" />
+      <recent name="$PROJECT_DIR$/KafkaDate" />
+      <recent name="$PROJECT_DIR$/Fflask" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/wordpress" />
       <recent name="$PROJECT_DIR$/wordpress/common" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.new">
-    <configuration name="20201.8.30" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.proxy_pid">
+    <configuration name="20221021_subprocess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyaction" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,7 +113,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20201.8.30.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20221021_subprocess.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="apicreatedate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="conredis (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyaction" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,34 +130,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fFlask" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apicreatedate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="date_source" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pyaction" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/date_source.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fFlask/conredis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,12 +152,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fFlask" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moving_pic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fFlask/moving_pic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,7 +188,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sql_util" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="proxy_pid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyaction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fFlask" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fFlask/proxy_pid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zmqqtt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyaction" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,7 +223,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wordpress/common/sql_util.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zmqqtt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.date_source" />
-        <item itemvalue="Python.apicreatedate" />
+        <item itemvalue="Python.proxy_pid" />
+        <item itemvalue="Python.20221021_subprocess" />
         <item itemvalue="Python.moving_pic" />
-        <item itemvalue="Python.20201.8.30" />
-        <item itemvalue="Python.sql_util" />
+        <item itemvalue="Python.conredis (1)" />
+        <item itemvalue="Python.zmqqtt" />
       </list>
     </recent_temporary>
   </component>
@@ -331,6 +337,20 @@
       <workItem from="1726279330313" duration="268000" />
       <workItem from="1726305647231" duration="2000" />
       <workItem from="1726620220886" duration="5212000" />
+      <workItem from="1729492507778" duration="254000" />
+      <workItem from="1729493168308" duration="413000" />
+      <workItem from="1729493638124" duration="43118000" />
+      <workItem from="1730188466643" duration="3273000" />
+      <workItem from="1730197251227" duration="6594000" />
+      <workItem from="1730278013987" duration="29750000" />
+      <workItem from="1730769598109" duration="2710000" />
+      <workItem from="1730786016884" duration="14432000" />
+      <workItem from="1730970833165" duration="60441000" />
+      <workItem from="1731652187025" duration="25221000" />
+      <workItem from="1731924100858" duration="17748000" />
+      <workItem from="1732149999676" duration="35506000" />
+      <workItem from="1732861467943" duration="48153000" />
+      <workItem from="1733728576761" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1725245738091</created>
@@ -374,7 +394,63 @@
       <option name="project" value="LOCAL" />
       <updated>1725608845657</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="10.21更新redis，更新movingpic功能">
+      <created>1729503077255</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729503077255</updated>
+    </task>
+    <task id="LOCAL-00008" summary="10.21更新redis，更新movingpic功能">
+      <created>1729503084096</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729503084096</updated>
+    </task>
+    <task id="LOCAL-00009" summary="10.21更新redis，更新movingpic功能">
+      <created>1729503097596</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729503097596</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2024.10.30">
+      <created>1730277548553</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730277548553</updated>
+    </task>
+    <task id="LOCAL-00011" summary="2024.10.30">
+      <created>1730277623834</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730277623834</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2024.10.30">
+      <created>1730277635326</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730277635326</updated>
+    </task>
+    <task id="LOCAL-00013" summary="12/09更新">
+      <created>1733728683028</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733728683028</updated>
+    </task>
+    <task id="LOCAL-00014" summary="12/09更新，第二次">
+      <created>1733728880669</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733728880669</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +467,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -411,13 +487,13 @@
     <MESSAGE value="2024.9.4维护国标和企标参数" />
     <MESSAGE value="第一次提交" />
     <MESSAGE value="2024.9.6 完成矿卡脚本造数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.9.6 完成矿卡脚本造数据" />
+    <MESSAGE value="10.21更新redis，更新movingpic功能" />
+    <MESSAGE value="2024.10.30" />
+    <MESSAGE value="12/09更新" />
+    <MESSAGE value="12/09更新，第二次" />
+    <option name="LAST_COMMIT_MESSAGE" value="12/09更新，第二次" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="200" key="#Deployment" timestamp="1725009352787">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state x="440" y="200" key="#Deployment/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1725009352787" />
     <state x="555" y="365" key="#Notifications" timestamp="1725256405285">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -426,10 +502,14 @@
       <screen x="-3440" y="25" width="3440" height="1415" />
     </state>
     <state x="-2256" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725330285653" />
-    <state x="168" y="114" width="1344" height="820" key="DiffContextDialog" timestamp="1725336833013">
+    <state x="569" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1730250019436">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="168" y="114" width="1344" height="820" key="DiffContextDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1725336833013" />
+    <state x="569" y="343" key="#com.intellij.fileTypes.FileTypeChooser/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1730250019436" />
+    <state x="168" y="114" width="1344" height="820" key="DiffContextDialog" timestamp="1733728834959">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="168" y="114" width="1344" height="820" key="DiffContextDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1733728834959" />
     <state x="649" y="460" key="Github.CreateGistDialog" timestamp="1725333472091">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -439,47 +519,51 @@
     </state>
     <state x="-1844" y="633" width="247" height="318" key="Github.ShareDialog/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725329805315" />
     <state x="779" y="465" width="251" height="318" key="Github.ShareDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1725333866647" />
-    <state width="992" height="207" key="GridCell.Tab.0.bottom" timestamp="1726279321290">
+    <state width="1638" height="302" key="GridCell.Tab.0.bottom" timestamp="1733728572539">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="1699" height="447" key="GridCell.Tab.0.bottom/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725330263269" />
-    <state width="992" height="207" key="GridCell.Tab.0.bottom/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1726279321290" />
-    <state width="992" height="207" key="GridCell.Tab.0.center" timestamp="1726279321289">
+    <state width="1638" height="302" key="GridCell.Tab.0.bottom/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1733728572539" />
+    <state width="1638" height="235" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1731635155156" />
+    <state width="1638" height="302" key="GridCell.Tab.0.center" timestamp="1733728572538">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="1699" height="447" key="GridCell.Tab.0.center/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725330263269" />
-    <state width="992" height="207" key="GridCell.Tab.0.center/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1726279321289" />
-    <state width="992" height="207" key="GridCell.Tab.0.left" timestamp="1726279321289">
+    <state width="1638" height="302" key="GridCell.Tab.0.center/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1733728572538" />
+    <state width="1638" height="235" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1731635155155" />
+    <state width="1638" height="302" key="GridCell.Tab.0.left" timestamp="1733728572538">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="1699" height="447" key="GridCell.Tab.0.left/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725330263269" />
-    <state width="992" height="207" key="GridCell.Tab.0.left/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1726279321289" />
-    <state width="992" height="207" key="GridCell.Tab.0.right" timestamp="1726279321290">
+    <state width="1638" height="302" key="GridCell.Tab.0.left/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1733728572538" />
+    <state width="1638" height="235" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1731635155154" />
+    <state width="1638" height="302" key="GridCell.Tab.0.right" timestamp="1733728572539">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="1699" height="447" key="GridCell.Tab.0.right/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725330263269" />
-    <state width="992" height="207" key="GridCell.Tab.0.right/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1726279321290" />
-    <state width="1638" height="207" key="GridCell.Tab.1.bottom" timestamp="1721888845697">
+    <state width="1638" height="302" key="GridCell.Tab.0.right/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1733728572539" />
+    <state width="1638" height="235" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1731635155155" />
+    <state width="1638" height="207" key="GridCell.Tab.1.bottom" timestamp="1731649805214">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1638" height="207" key="GridCell.Tab.1.bottom/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1721888845697" />
-    <state width="1638" height="207" key="GridCell.Tab.1.center" timestamp="1721888845696">
+    <state width="1638" height="207" key="GridCell.Tab.1.bottom/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1731649805214" />
+    <state width="1638" height="207" key="GridCell.Tab.1.center" timestamp="1731649805211">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1638" height="207" key="GridCell.Tab.1.center/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1721888845696" />
-    <state width="1638" height="207" key="GridCell.Tab.1.left" timestamp="1721888845696">
+    <state width="1638" height="207" key="GridCell.Tab.1.center/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1731649805211" />
+    <state width="1638" height="207" key="GridCell.Tab.1.left" timestamp="1731649805209">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1638" height="207" key="GridCell.Tab.1.left/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1721888845696" />
-    <state width="1638" height="207" key="GridCell.Tab.1.right" timestamp="1721888845696">
+    <state width="1638" height="207" key="GridCell.Tab.1.left/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1731649805209" />
+    <state width="1638" height="207" key="GridCell.Tab.1.right" timestamp="1731649805213">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1638" height="207" key="GridCell.Tab.1.right/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1721888845696" />
-    <state x="589" y="262" key="RollbackChangesDialog" timestamp="1725341716726">
+    <state width="1638" height="207" key="GridCell.Tab.1.right/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1731649805213" />
+    <state x="589" y="262" key="RollbackChangesDialog" timestamp="1733728863647">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="-2234" y="352" key="RollbackChangesDialog/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725329689592" />
-    <state x="589" y="262" key="RollbackChangesDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1725341716726" />
+    <state x="589" y="262" key="RollbackChangesDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1733728863647" />
     <state x="349" y="173" key="SettingsEditor" timestamp="1725341958428">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -488,29 +572,33 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="720" y="456" key="VCS.EditChangelistDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1725336207466" />
-    <state x="346" y="197" key="Vcs.Push.Dialog.v2" timestamp="1725608866839">
+    <state x="346" y="197" key="Vcs.Push.Dialog.v2" timestamp="1733729016523">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="-2732" y="262" key="Vcs.Push.Dialog.v2/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725330325027" />
-    <state x="346" y="197" key="Vcs.Push.Dialog.v2/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1725608866839" />
+    <state x="346" y="197" key="Vcs.Push.Dialog.v2/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1733729016523" />
     <state x="346" y="197" key="Vcs.Push.Dialog.v2/0.25.1680.1025@0.25.1680.1025" timestamp="1725333293428" />
     <state x="100" y="125" width="1480" height="825" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1725608503108">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="100" y="125" width="1480" height="825" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1725608503108" />
-    <state x="678" y="275" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1725245027206">
+    <state x="678" y="275" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1730277592628">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="678" y="275" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1725245027206" />
-    <state x="641" y="455" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1725343311800">
+    <state x="678" y="275" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1730277592628" />
+    <state x="641" y="455" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1730277663261">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="-2127" y="619" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-3440.25.3440.1415/0.25.1680.1025@-3440.25.3440.1415" timestamp="1725329821167" />
-    <state x="641" y="455" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1725343311800" />
-    <state x="505" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1721793226001">
+    <state x="641" y="455" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1730277663261" />
+    <state x="593" y="254" key="git4idea.branch.GitSmartOperationDialog" timestamp="1733728981351">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="505" y="252" width="670" height="676" key="search.everywhere.popup/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1721793226001" />
+    <state x="593" y="254" key="git4idea.branch.GitSmartOperationDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1733728981351" />
+    <state x="505" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1731555472395">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="505" y="252" width="670" height="676" key="search.everywhere.popup/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1731555472395" />
     <state x="678" y="332" key="svn.repositoryBrowser" timestamp="1725334063581">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -519,16 +607,12 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="661" y="315" key="svn4idea.import.options/0.25.1680.1025@0.25.1680.1025" timestamp="1725333984999" />
-    <state x="570" y="453" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1722326588260">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state x="570" y="453" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1722326588260" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/kafkazld.py</url>
+          <url>file://$PROJECT_DIR$/KafkaDate/kafkazld.py</url>
           <line>24</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -547,6 +631,16 @@
           <line>57</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/new.py</url>
+          <line>396</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fFlask/moving_pic.py</url>
+          <line>120</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -562,16 +656,21 @@
     <SUITE FILE_PATH="coverage/pyaction$20221102_xishu.coverage" NAME="20221102_xishu Coverage Results" MODIFIED="1668651180587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$2022_05_06.coverage" NAME="2022.05.06 Coverage Results" MODIFIED="1657271269152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$apicreatedate.coverage" NAME="apicreatedate Coverage Results" MODIFIED="1725350473132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyaction$flaskpy.coverage" NAME="flaskpy Coverage Results" MODIFIED="1730188539485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyaction$flaskpy__1_.coverage" NAME="flaskpy (1) Coverage Results" MODIFIED="1730710306247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fflask" />
     <SUITE FILE_PATH="coverage/pyaction$conectsql.coverage" NAME="conectsql Coverage Results" MODIFIED="1700472803513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$2021_8_26.coverage" NAME="2021.8.26 Coverage Results" MODIFIED="1638870809475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$2022_07_04.coverage" NAME="2022.07.04 Coverage Results" MODIFIED="1657512711635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/pyaction$20221021_subprocess.coverage" NAME="20221021_subprocess Coverage Results" MODIFIED="1685341623689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$proxy_util.coverage" NAME="proxy_util Coverage Results" MODIFIED="1701328889382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wordpress/common" />
+    <SUITE FILE_PATH="coverage/pyaction$20221021_subprocess.coverage" NAME="20221021_subprocess Coverage Results" MODIFIED="1733454747174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$20201_8_30.coverage" NAME="20201.8.30 Coverage Results" MODIFIED="1721878689101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$updatefile.coverage" NAME="updatefile Coverage Results" MODIFIED="1627882401733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$MYsqlfile.coverage" NAME="MYsqlfile Coverage Results" MODIFIED="1701083985165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyaction$zmqqtt.coverage" NAME="zmqqtt Coverage Results" MODIFIED="1732849935580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$writefile.coverage" NAME="writefile Coverage Results" MODIFIED="1668412361134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyaction$proxy_pid.coverage" NAME="proxy_pid Coverage Results" MODIFIED="1733455909046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fFlask" />
     <SUITE FILE_PATH="coverage/pyaction$date_source.coverage" NAME="date_source Coverage Results" MODIFIED="1725497058688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyaction$conredis__1_.coverage" NAME="conredis (1) Coverage Results" MODIFIED="1732876101162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fFlask" />
     <SUITE FILE_PATH="coverage/pyaction$kafkazld3.coverage" NAME="kafkazld3 Coverage Results" MODIFIED="1678099744822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$2021_8_31.coverage" NAME="2021.8.31 Coverage Results" MODIFIED="1652954202270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$urllib_request.coverage" NAME="coding_request Coverage Results" MODIFIED="1661506963784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -579,9 +678,9 @@
     <SUITE FILE_PATH="coverage/pyaction$rematch1.coverage" NAME="rematch1 Coverage Results" MODIFIED="1663323352748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$testreq.coverage" NAME="testreq Coverage Results" MODIFIED="1665719660454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$kafka4.coverage" NAME="kafka4 Coverage Results" MODIFIED="1693241780811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyaction$moving_pic.coverage" NAME="moving_pic Coverage Results" MODIFIED="1724291397027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyaction$new.coverage" NAME="new Coverage Results" MODIFIED="1725848427373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyaction$conrds.coverage" NAME="conrds Coverage Results" MODIFIED="1623390957214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyaction$new.coverage" NAME="new Coverage Results" MODIFIED="1733298232222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyaction$moving_pic.coverage" NAME="moving_pic Coverage Results" MODIFIED="1733382505639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fFlask" />
+    <SUITE FILE_PATH="coverage/pyaction$conrds.coverage" NAME="conrds Coverage Results" MODIFIED="1729671645192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$kafkazld1.coverage" NAME="kafkazld1 Coverage Results" MODIFIED="1681443064347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$kafkadata.coverage" NAME="kafkadata Coverage Results" MODIFIED="1670401298101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$2021_12_20.coverage" NAME="2021.12.20 Coverage Results" MODIFIED="1654011997867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -590,7 +689,9 @@
     <SUITE FILE_PATH="coverage/pyaction$coding_request.coverage" NAME="coding_request Coverage Results" MODIFIED="1708843951663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$2022_07_11.coverage" NAME="2022.07.11 Coverage Results" MODIFIED="1680064120348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$kafkazld2.coverage" NAME="kafkazld2 Coverage Results" MODIFIED="1685433045522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyaction$moving_pic__1_.coverage" NAME="moving_pic (1) Coverage Results" MODIFIED="1732784524606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fflask" />
     <SUITE FILE_PATH="coverage/pyaction$new_call.coverage" NAME="new_call Coverage Results" MODIFIED="1683287109179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyaction$conredis.coverage" NAME="conredis Coverage Results" MODIFIED="1731901389865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fflask" />
     <SUITE FILE_PATH="coverage/pyaction$2021_04_08.coverage" NAME="2021.04.08 Coverage Results" MODIFIED="1651807048308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$kafka3.coverage" NAME="kafka3 Coverage Results" MODIFIED="1656406167682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyaction$param_liunx.coverage" NAME="param_liunx Coverage Results" MODIFIED="1696653966364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

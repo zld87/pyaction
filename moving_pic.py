@@ -1,3 +1,4 @@
+from flask import Flask, jsonify
 import requests
 from bs4 import BeautifulSoup
 import re, time, os, random
@@ -9,6 +10,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 
+app = Flask(__name__)
 
 # 轮廓检测
 def get_pos_1(imageSrc):
@@ -99,40 +101,56 @@ url2 = 'https://www.zhihu.com/'
 
 
 # 创建Chrome WebDriver对象
-def get_pic(get_type=1):
+@app.route('/get_pic/<any(1, 2):get_type>')
+def get_pic(get_type=2):
     driver = webdriver.Chrome()
     try:
         driver.get(url=url)
         # print(dir(driver))
         # 选择账号登陆
         if get_type == 1:
-            passClick = driver.find_element(By.CSS_SELECTOR, 'label[class="el-radio-button is-active"]')
-            passClick.click()
-            passClick = driver.find_element(By.CLASS_NAME, 'el-checkbox__label')
-            passClick.click()
+            # 账号密码登陆
+            loginType = driver.find_element(By.CSS_SELECTOR, 'label[class="el-radio-button is-active"]')
+            loginType.click()
+            # 记住登陆状态
+            remblogin = driver.find_element(By.CLASS_NAME, 'el-checkbox__label')
+            remblogin.click()
 
             driver.implicitly_wait(3)  # 使用浏览器隐式等待3秒
 
-            # print(passClick.text)
+            # print(loginType.text)
             # time.sleep(5)
 
-            # 获取账号密码组件并赋值
+            # 设置账号和密码
             userInput = driver.find_element(By.CSS_SELECTOR, 'input[placeholder="请输入账号/邮箱/手机号"]')
             userInput.send_keys("zld87")
             # userInput.clear()
             pwdInput = driver.find_element(By.CSS_SELECTOR, 'input[placeholder="请输入账号密码"]')
             pwdInput.send_keys("123qweASD")
+            # time.sleep(3)
 
             # 获取登录按钮并点击登录
             loginButton = driver.find_element(By.XPATH, '//*[@id="app"]/div/div[2]/form/div[5]/div/button')
             loginButton.click()
             # print(f'loginButton:     {loginButton.location}')
 
-        # elif get_type == 2:
-        #     passClick = driver.find_element(By.CSS_SELECTOR, 'label[class="el-radio-button is-active"]')
-        #     passClick.click()
-        #     passClick = driver.find_element(By.CLASS_NAME, 'el-checkbox__label')
-        #     passClick.click()
+        elif get_type == 2:
+            # 手机验证码登陆
+            loginType = driver.find_element(By.CSS_SELECTOR, 'label[class="el-radio-button"]')
+            loginType.click()
+            # 记住登陆状态
+            remblogin = driver.find_element(By.CLASS_NAME, 'el-checkbox__label')
+            remblogin.click()
+
+            # 设置手机号码
+            userInput = driver.find_element(By.CSS_SELECTOR, 'input[placeholder="请输入手机号"]')
+            userInput.send_keys("13916843740")
+            # 点击验证码并弹出图片验证
+            pwdInput = driver.find_element(By.CSS_SELECTOR, 'button[class="el-button getCodeBtn"]')
+            pwdInput.click()
+
+
+        # 开始验证滑块图片一系列操作
 
         driver.implicitly_wait(5)  # 使用浏览器隐式等待3秒
 
@@ -191,15 +209,18 @@ def get_pic(get_type=1):
                 i += 1
 
             # 移动完之后，松开鼠标
-            ActionChains(driver).release().perform()
+            ActionChains(driver).release()
             # 整体等待5秒看结果
             time.sleep(3)
-            # 关闭浏览器
-            driver.quit()
+
             # os.remove('bgImage.png')
 
     finally:
+        # 关闭浏览器
         driver.quit()
+    # return 'ok'
 
 
-get_pic()
+# get_pic(2)
+if __name__ == '__main__':
+    app.run(port=1234, debug=True)
