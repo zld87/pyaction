@@ -9,7 +9,8 @@ producer = KafkaProducer(
     value_serializer=lambda v: json.dumps(v).encode('utf-8'),
     #bootstrap_servers=["192.168.100.168:9092","192.168.100.195:9092","192.168.100.196:9092"],
     bootstrap_servers=["192.168.200.110:9092"],
-    api_version=(2, 12)
+    api_version=(2, 12),
+    acks='all'
 )
 
 st = parse(sys.argv[1])

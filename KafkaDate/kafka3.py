@@ -26,6 +26,7 @@ producer = KafkaProducer(
     # bootstrap_servers=["192.168.100.168:9092","192.168.100.195:9092","192.168.100.196:9092"],
     # bootstrap_servers=["192.168.100.209:19094","192.168.100.209:19093","192.168.100.209:19092"],
     bootstrap_servers=kafkaip.split(","),
+    acks='all',
     # api_version=(0,11),
     batch_size=131072
 )

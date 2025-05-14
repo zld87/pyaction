@@ -33,7 +33,6 @@ class toperror(Exception):
         self.name = name
         self.age = age
 
-
 a = 2
 b = 4
 
@@ -48,9 +47,9 @@ class zld(object):
     def __new__(cls, *args, **kwargs):
         return object.__new__(cls)
 
-    def __init__(self, a, b):
-        self.a = a
-        self.b = b
+    def __init__(self, num1, num2):
+        self.a = num1
+        self.b = num2
 
 
 zld1 = zld(133, 144)

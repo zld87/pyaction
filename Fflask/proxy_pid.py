@@ -37,6 +37,5 @@ def response(flow):
     if r'user/captcha/check' in flow.request.url:
         pic_id = flow.request.query.get('id')
         print(f'这是获取的pic_id:  ' + pic_id, '已经存入redis')
-
         # rc = Redis_Cli().con_type()
         # rc.set('pic_name', pic_id)

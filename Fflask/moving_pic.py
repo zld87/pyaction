@@ -11,7 +11,7 @@ from selenium.webdriver.chrome.options import Options
 import sys
 sys.path.append('/Users/zhouliudong/pyaction/Fflask')
 from conrds import Redis_Cli
-
+from chengzhong import *
 
 app = Flask(__name__)
 
@@ -114,9 +114,10 @@ def get_pic(get_type=None, telephone=None, user=None, pwd=None):
     chrome_options.add_argument('--proxy-server=http://' + proxy)
 
     # 初始化 webdriver
-    # driver = webdriver.Chrome()
+    # 普通模式
+    driver = webdriver.Chrome()
     # 代理模式
-    driver = webdriver.Chrome(options=chrome_options)
+    # driver = webdriver.Chrome(options=chrome_options)
     try:
         driver.get(url=url)
         # print(dir(driver))
@@ -229,10 +230,11 @@ def get_pic(get_type=None, telephone=None, user=None, pwd=None):
             print('滑块图片放入对应位置后放开鼠标')
             ActionChains(driver).release().perform()
             # 整体等待5秒看结果
-            time.sleep(5)
+            time.sleep(2)
 
             # 后续页面继续下去
-            # 点击数据中台
+            # 进入新版环卫系统
+            chengzhong(driver)
             # pic = driver.find_element(By.XPATH, '//*[@id="app"]/div/div[1]/div[2]/div/div[1]')
             # pic.click()
             #time.sleep(10)
@@ -272,8 +274,8 @@ def get_pic(get_type=None, telephone=None, user=None, pwd=None):
     # return {'code': 200, 'message': 'ok', 'telephone': telephone, '验证码': eval(red_val)}
 
 
-# code = get_pic(get_type='two', user='zld87', pwd='123qweASD')
+code = get_pic(get_type='two', user='zld87', pwd='123qweASD')
 # print(code)
 # if __name__ == '__main__':
 #     app.run(host='0.0.0.0', port=1234, debug=True)  # 可以访问ip地址
-#     app.run(port=1234, debug=True)  # 只能访问本地127.0.0.1
+#     # app.run(port=1234, debug=True)  # 只能访问本地127.0.0.1

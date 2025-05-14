@@ -17163,3 +17163,719 @@ newDis:  896
 第12次移动后，位置为899
 滑块图片放入对应位置后放开鼠标
 [pid: 29676|app: 0|req: 1/2] 192.168.21.10 () {28 vars in 404 bytes} [Fri Dec  6 16:15:53 2024] GET /get_pic/two/zld87/123qweASD => generated 2 bytes in 20718 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Tue Dec 31 09:43:44 2024] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong/pyaction/fFlask
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 2560
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8800 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:58108 (port auto-assigned) fd 3
+dropping root privileges after socket binding
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+PEP 405 virtualenv detected: /Users/zhouliudong/pyaction/venv
+Set PythonHome to /Users/zhouliudong/pyaction/venv
+Python main interpreter initialized at 0x7fdedd408420
+dropping root privileges after plugin initialization
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your request buffer size is 65535 bytes
+mapped 1031430 bytes (1007 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+dropping root privileges after application loading
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31931)
+spawned uWSGI worker 1 (pid: 31932, cores: 2)
+spawned uWSGI worker 2 (pid: 31933, cores: 2)
+spawned uWSGI worker 3 (pid: 31934, cores: 2)
+spawned uWSGI worker 4 (pid: 31935, cores: 2)
+spawned uWSGI http 1 (pid: 31936)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fdedd408420 pid: 31933 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fdedd408420 pid: 31935 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fdedd408420 pid: 31934 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fdedd408420 pid: 31932 (default app)
+准备进入
+进来了
+(360, 110, 3)
+360 110
+min_val     -0.18406565487384796
+max_val     0.49668216705322266
+min_loc     (273, 0)
+max_loc     (26, 0)
+进来了, 小图片坐标817
+newDis:  937
+准备移动
+第1次移动后，位置为821
+准备移动
+第2次移动后，位置为826
+准备移动
+第3次移动后，位置为829
+准备移动
+第4次移动后，位置为832
+准备移动
+第5次移动后，位置为842
+准备移动
+第6次移动后，位置为850
+准备移动
+第7次移动后，位置为853
+准备移动
+第8次移动后，位置为856
+准备移动
+第9次移动后，位置为866
+准备移动
+第10次移动后，位置为874
+准备移动
+第11次移动后，位置为880
+准备移动
+第12次移动后，位置为884
+准备移动
+第13次移动后，位置为894
+准备移动
+第14次移动后，位置为901
+准备移动
+第15次移动后，位置为907
+准备移动
+第16次移动后，位置为917
+准备移动
+第17次移动后，位置为921
+准备移动
+第18次移动后，位置为928
+准备移动
+第19次移动后，位置为933
+准备移动
+第20次移动后，位置为941
+滑块图片放入对应位置后放开鼠标
+[pid: 31932|app: 0|req: 1/1] 192.168.21.5 () {28 vars in 402 bytes} [Tue Dec 31 09:44:05 2024] GET /get_pic/two/zld87/123qweASD => generated 2 bytes in 21669 msecs (HTTP/1.1 200) 2 headers in 78 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 31936)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Mon Jan 13 15:24:11 2025] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong/pyaction/fFlask/uwsgi
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 2560
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8800 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:54195 (port auto-assigned) fd 3
+dropping root privileges after socket binding
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+PEP 405 virtualenv detected: /Users/zhouliudong/pyaction/venv
+Set PythonHome to /Users/zhouliudong/pyaction/venv
+Python main interpreter initialized at 0x7f98d5606000
+dropping root privileges after plugin initialization
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your request buffer size is 65535 bytes
+mapped 1031430 bytes (1007 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+dropping root privileges after application loading
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 51314)
+spawned uWSGI worker 1 (pid: 51315, cores: 2)
+spawned uWSGI worker 2 (pid: 51316, cores: 2)
+spawned uWSGI worker 3 (pid: 51317, cores: 2)
+spawned uWSGI worker 4 (pid: 51318, cores: 2)
+spawned uWSGI http 1 (pid: 51319)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f98d5606000 pid: 51316 (default app)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f98d5606000 pid: 51315 (default app)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f98d5606000 pid: 51318 (default app)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f98d5606000 pid: 51317 (default app)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 51319)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Mon Jan 20 17:26:49 2025] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong/pyaction/fFlask
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8800 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:52799 (port auto-assigned) fd 3
+dropping root privileges after socket binding
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+PEP 405 virtualenv detected: /Users/zhouliudong/pyaction/venv
+Set PythonHome to /Users/zhouliudong/pyaction/venv
+Python main interpreter initialized at 0x7f9e7b7053b0
+dropping root privileges after plugin initialization
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your request buffer size is 65535 bytes
+mapped 1031430 bytes (1007 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+dropping root privileges after application loading
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1210)
+spawned uWSGI worker 1 (pid: 1211, cores: 2)
+spawned uWSGI worker 2 (pid: 1212, cores: 2)
+spawned uWSGI worker 3 (pid: 1213, cores: 2)
+spawned uWSGI worker 4 (pid: 1214, cores: 2)
+spawned uWSGI http 1 (pid: 1215)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f9e7b7053b0 pid: 1211 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f9e7b7053b0 pid: 1214 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f9e7b7053b0 pid: 1213 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f9e7b7053b0 pid: 1212 (default app)
+There was an error managing chromedriver (error decoding response body); using driver found in the cache
+准备进入
+进来了
+(360, 110, 3)
+360 110
+min_val     -0.2365318089723587
+max_val     0.5408446788787842
+min_loc     (171, 0)
+max_loc     (254, 0)
+进来了, 小图片坐标817
+newDis:  892
+准备移动
+第1次移动后，位置为823
+准备移动
+第2次移动后，位置为833
+准备移动
+第3次移动后，位置为840
+准备移动
+第4次移动后，位置为844
+准备移动
+第5次移动后，位置为849
+准备移动
+第6次移动后，位置为859
+准备移动
+第7次移动后，位置为868
+准备移动
+第8次移动后，位置为875
+准备移动
+第9次移动后，位置为885
+准备移动
+第10次移动后，位置为892
+滑块图片放入对应位置后放开鼠标
+[pid: 1213|app: 0|req: 1/1] 192.168.21.110 () {28 vars in 406 bytes} [Mon Jan 20 17:32:11 2025] GET /get_pic/two/zld87/123qweASD => generated 2 bytes in 482028 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+准备进入
+进来了
+(360, 110, 3)
+360 110
+min_val     -0.36450254917144775
+max_val     -0.05988573282957077
+min_loc     (261, 0)
+max_loc     (0, 0)
+进来了, 小图片坐标817
+newDis:  932
+准备移动
+第1次移动后，位置为824
+准备移动
+第2次移动后，位置为830
+准备移动
+第3次移动后，位置为838
+准备移动
+第4次移动后，位置为846
+准备移动
+准备进入
+进来了
+(360, 110, 3)
+360 110
+min_val     -0.3023797869682312
+max_val     0.304332435131073
+min_loc     (269, 0)
+max_loc     (480, 0)
+进来了, 小图片坐标817
+第5次移动后，位置为856
+准备移动
+newDis:  935
+准备移动
+第6次移动后，位置为861
+准备移动
+第1次移动后，位置为826
+准备移动
+第7次移动后，位置为867
+准备移动
+第2次移动后，位置为835
+准备移动
+第8次移动后，位置为873
+准备移动
+第3次移动后，位置为839
+准备移动
+第9次移动后，位置为880
+准备移动
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 1215)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Mon Jan 20 17:41:31 2025] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong/pyaction/fFlask/uwsgi
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8800 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:55284 (port auto-assigned) fd 3
+dropping root privileges after socket binding
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+PEP 405 virtualenv detected: /Users/zhouliudong/pyaction/venv
+Set PythonHome to /Users/zhouliudong/pyaction/venv
+Python main interpreter initialized at 0x7fa7bd408360
+dropping root privileges after plugin initialization
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your request buffer size is 65535 bytes
+mapped 1031430 bytes (1007 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+dropping root privileges after application loading
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1877)
+spawned uWSGI worker 1 (pid: 1878, cores: 2)
+spawned uWSGI worker 2 (pid: 1879, cores: 2)
+spawned uWSGI worker 3 (pid: 1880, cores: 2)
+spawned uWSGI worker 4 (pid: 1881, cores: 2)
+spawned uWSGI http 1 (pid: 1882)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa7bd408360 pid: 1878 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa7bd408360 pid: 1880 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa7bd408360 pid: 1881 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa7bd408360 pid: 1879 (default app)
+准备进入
+进来了
+(360, 110, 3)
+360 110
+min_val     -0.23542624711990356
+max_val     0.2390560805797577
+min_loc     (205, 0)
+max_loc     (0, 0)
+进来了, 小图片坐标817
+newDis:  907
+准备移动
+第1次移动后，位置为826
+准备移动
+第2次移动后，位置为830
+准备移动
+第3次移动后，位置为835
+准备移动
+第4次移动后，位置为840
+准备移动
+第5次移动后，位置为850
+准备移动
+第6次移动后，位置为857
+准备移动
+第7次移动后，位置为860
+准备移动
+第8次移动后，位置为865
+准备移动
+第9次移动后，位置为873
+准备移动
+第10次移动后，位置为880
+准备移动
+第11次移动后，位置为890
+准备移动
+第12次移动后，位置为900
+准备移动
+第13次移动后，位置为905
+准备移动
+第14次移动后，位置为914
+滑块图片放入对应位置后放开鼠标
+[pid: 1879|app: 0|req: 1/1] 192.168.21.110 () {28 vars in 406 bytes} [Mon Jan 20 17:42:00 2025] GET /get_pic/two/zld87/123qweASD => generated 2 bytes in 21312 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+[pid: 1880|app: 0|req: 1/2] 192.168.21.110 () {28 vars in 406 bytes} [Mon Jan 20 18:01:21 2025] GET /get_pic/two/zld87/123qweASD => generated 2544 bytes in 1863 msecs (HTTP/1.1 200) 2 headers in 73 bytes (2 switches on core 0)
+准备进入
+进来了
+(360, 110, 3)
+360 110
+min_val     -0.4306102693080902
+max_val     0.017301425337791443
+min_loc     (407, 0)
+max_loc     (242, 0)
+进来了, 小图片坐标817
+newDis:  996
+准备移动
+第1次移动后，位置为825
+准备移动
+第2次移动后，位置为833
+准备移动
+第3次移动后，位置为840
+准备移动
+第4次移动后，位置为844
+准备移动
+第5次移动后，位置为848
+准备移动
+第6次移动后，位置为858
+准备移动
+第7次移动后，位置为865
+准备移动
+第8次移动后，位置为870
+准备移动
+第9次移动后，位置为877
+准备移动
+第10次移动后，位置为817
+准备移动
+第11次移动后，位置为894
+准备移动
+第12次移动后，位置为897
+准备移动
+第13次移动后，位置为903
+准备移动
+第14次移动后，位置为912
+准备移动
+第15次移动后，位置为920
+准备移动
+第16次移动后，位置为924
+准备移动
+第17次移动后，位置为928
+准备移动
+第18次移动后，位置为931
+准备移动
+第19次移动后，位置为937
+准备移动
+第20次移动后，位置为945
+准备移动
+第21次移动后，位置为954
+准备移动
+第22次移动后，位置为958
+准备移动
+第23次移动后，位置为967
+准备移动
+第24次移动后，位置为976
+准备移动
+第25次移动后，位置为985
+准备移动
+第26次移动后，位置为994
+准备移动
+第27次移动后，位置为998
+滑块图片放入对应位置后放开鼠标
+[pid: 1879|app: 0|req: 2/3] 192.168.21.110 () {28 vars in 406 bytes} [Mon Jan 20 18:01:54 2025] GET /get_pic/two/zld87/123qweASD => generated 2 bytes in 24847 msecs (HTTP/1.1 200) 2 headers in 78 bytes (2 switches on core 1)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 1882)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Wed Feb 12 09:48:16 2025] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 2560
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8800 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:55422 (port auto-assigned) fd 3
+dropping root privileges after socket binding
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+PEP 405 virtualenv detected: /Users/zhouliudong/pyaction/venv
+Set PythonHome to /Users/zhouliudong/pyaction/venv
+Python main interpreter initialized at 0x7fcd32c0c8c0
+dropping root privileges after plugin initialization
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your request buffer size is 65535 bytes
+mapped 1031430 bytes (1007 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+dropping root privileges after application loading
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 84977)
+spawned uWSGI worker 1 (pid: 84978, cores: 2)
+spawned uWSGI worker 2 (pid: 84979, cores: 2)
+spawned uWSGI worker 3 (pid: 84980, cores: 2)
+spawned uWSGI worker 4 (pid: 84981, cores: 2)
+spawned uWSGI http 1 (pid: 84982)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fcd32c0c8c0 pid: 84980 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fcd32c0c8c0 pid: 84979 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fcd32c0c8c0 pid: 84978 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fcd32c0c8c0 pid: 84981 (default app)
+[pid: 84981|app: 0|req: 1/1] 192.168.21.110 () {28 vars in 406 bytes} [Wed Feb 12 09:49:53 2025] GET /get_pic/two/zld87/123qweASD => generated 2545 bytes in 35827 msecs (HTTP/1.1 200) 2 headers in 73 bytes (2 switches on core 0)
+准备进入
+进来了
+(360, 110, 3)
+360 110
+min_val     -0.2855360805988312
+max_val     0.29454800486564636
+min_loc     (64, 0)
+max_loc     (292, 0)
+进来了, 小图片坐标817
+newDis:  845
+准备移动
+第1次移动后，位置为825
+准备移动
+第2次移动后，位置为828
+准备移动
+第3次移动后，位置为833
+准备移动
+第4次移动后，位置为840
+准备移动
+第5次移动后，位置为845
+滑块图片放入对应位置后放开鼠标
+[pid: 84981|app: 0|req: 2/2] 192.168.21.110 () {28 vars in 406 bytes} [Wed Feb 12 10:18:01 2025] GET /get_pic/two/zld87/123qweASD => generated 2 bytes in 18041 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 1)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 84982)
+worker 4 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Wed Feb 19 15:03:58 2025] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8800 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:50683 (port auto-assigned) fd 3
+dropping root privileges after socket binding
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+PEP 405 virtualenv detected: /Users/zhouliudong/pyaction/venv
+Set PythonHome to /Users/zhouliudong/pyaction/venv
+Python main interpreter initialized at 0x7fc442e07c90
+dropping root privileges after plugin initialization
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your request buffer size is 65535 bytes
+mapped 1031430 bytes (1007 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+dropping root privileges after application loading
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1066)
+spawned uWSGI worker 1 (pid: 1067, cores: 2)
+spawned uWSGI worker 2 (pid: 1068, cores: 2)
+spawned uWSGI worker 3 (pid: 1069, cores: 2)
+spawned uWSGI worker 4 (pid: 1070, cores: 2)
+spawned uWSGI http 1 (pid: 1071)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fc442e07c90 pid: 1069 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fc442e07c90 pid: 1068 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fc442e07c90 pid: 1067 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fc442e07c90 pid: 1070 (default app)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 1071)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Wed Feb 19 15:36:43 2025] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8800 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:50349 (port auto-assigned) fd 3
+dropping root privileges after socket binding
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+PEP 405 virtualenv detected: /Users/zhouliudong/pyaction/venv
+Set PythonHome to /Users/zhouliudong/pyaction/venv
+Python main interpreter initialized at 0x7fb8afe05a80
+dropping root privileges after plugin initialization
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your request buffer size is 65535 bytes
+mapped 1031430 bytes (1007 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+dropping root privileges after application loading
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 940)
+spawned uWSGI worker 1 (pid: 941, cores: 2)
+spawned uWSGI worker 2 (pid: 942, cores: 2)
+spawned uWSGI worker 3 (pid: 943, cores: 2)
+spawned uWSGI worker 4 (pid: 944, cores: 2)
+spawned uWSGI http 1 (pid: 945)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x7fb8afe05a80 pid: 941 (default app)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x7fb8afe05a80 pid: 944 (default app)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x7fb8afe05a80 pid: 942 (default app)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x7fb8afe05a80 pid: 943 (default app)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 945)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Wed Feb 19 15:58:06 2025] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong/pyaction/fFlask
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8800 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:53698 (port auto-assigned) fd 3
+dropping root privileges after socket binding
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+PEP 405 virtualenv detected: /Users/zhouliudong/pyaction/venv
+Set PythonHome to /Users/zhouliudong/pyaction/venv
+Python main interpreter initialized at 0x7fa717d06950
+dropping root privileges after plugin initialization
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your request buffer size is 65535 bytes
+mapped 1031430 bytes (1007 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+dropping root privileges after application loading
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1340)
+spawned uWSGI worker 1 (pid: 1341, cores: 2)
+spawned uWSGI worker 2 (pid: 1342, cores: 2)
+spawned uWSGI worker 3 (pid: 1343, cores: 2)
+spawned uWSGI worker 4 (pid: 1344, cores: 2)
+spawned uWSGI http 1 (pid: 1345)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa717d06950 pid: 1341 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa717d06950 pid: 1344 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa717d06950 pid: 1342 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa717d06950 pid: 1343 (default app)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 1345)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Mon Mar 31 09:15:54 2025] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong/pyaction/fFlask
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 2560
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8800 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:49610 (port auto-assigned) fd 3
+dropping root privileges after socket binding
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+PEP 405 virtualenv detected: /Users/zhouliudong/pyaction/venv
+Set PythonHome to /Users/zhouliudong/pyaction/venv
+Python main interpreter initialized at 0x7fb7641055a0
+dropping root privileges after plugin initialization
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your request buffer size is 65535 bytes
+mapped 1031430 bytes (1007 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+dropping root privileges after application loading
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 314)
+spawned uWSGI worker 1 (pid: 315, cores: 2)
+spawned uWSGI worker 2 (pid: 316, cores: 2)
+spawned uWSGI worker 3 (pid: 317, cores: 2)
+spawned uWSGI worker 4 (pid: 318, cores: 2)
+spawned uWSGI http 1 (pid: 319)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fb7641055a0 pid: 317 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fb7641055a0 pid: 315 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fb7641055a0 pid: 318 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fb7641055a0 pid: 316 (default app)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 319)
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds

@@ -92,14 +92,18 @@ print(A[-1::-2])
 a = [2 for y in range(10)]
 c = type(a)
 print(c)
+print('_____________________')
 
 
-class zhou(object):
-    def __call__(self, a):
-        print('---call----' + a)
+class zhou123(object):
+    def __call__(self):
+        print('---这就是call----')
+    def __str__(self):
+        return '我是str'
 
-
-a = zhou()
+# 调用私有方法 __call__
+ac = zhou123()
+ac()
 
 i = 3
 i *= 3
@@ -427,3 +431,33 @@ data = data[0:10] + 'T' + data[11:19] + 'Z'
 print(data)
 
 
+c = 9 // 2
+print(c)
+
+class zld199(Exception):
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+
+def xxzld():
+    try:
+        if 2 > 1:
+            raise zld199('zld', 19)
+    except zld199 as error:
+        print(repr(error))
+
+xxzld()
+
+o = [11, 22, 33, 44]
+print(o[-2])
+
+# a7 = '1234444 %d' % a
+# print('1234444 %d%d' % (a, a))
+
+a0123 = 'adf'
+
+print(int(format(time.time(), '.0f')))
+
+ccc = 7 // 2
+print(ccc)

@@ -107,6 +107,7 @@ if __name__ == '__main__':
 query_sql = "SELECT * " \
             "FROM mitmproxy.req_info " \
             "WHERE url = %s and id = %s"
+
 query_args = ("https://www.123.com", 3)  # 就在value 元组中添加，对应多个条件字段的值
 
 # one 查询一条，all:查询所有、2 : 查询两条
