@@ -17879,3 +17879,809 @@ gateway "uWSGI http 1" has been buried (pid: 319)
 worker 3 buried after 1 seconds
 worker 2 buried after 1 seconds
 worker 1 buried after 1 seconds
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Fri Mar  6 11:20:10 2026] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong/pyaction/fFlask
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8800 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:56186 (port auto-assigned) fd 3
+dropping root privileges after socket binding
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+PEP 405 virtualenv detected: /Users/zhouliudong/pyaction/venv
+Set PythonHome to /Users/zhouliudong/pyaction/venv
+Python main interpreter initialized at 0x7fdc64606d10
+dropping root privileges after plugin initialization
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your request buffer size is 65535 bytes
+mapped 1031430 bytes (1007 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+dropping root privileges after application loading
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 68862)
+spawned uWSGI worker 1 (pid: 68863, cores: 2)
+spawned uWSGI worker 2 (pid: 68864, cores: 2)
+spawned uWSGI worker 3 (pid: 68865, cores: 2)
+spawned uWSGI worker 4 (pid: 68866, cores: 2)
+spawned uWSGI http 1 (pid: 68867)
+准备进入
+进来了
+(360, 110, 3)
+360 110
+min_val     -0.41643399000167847
+max_val     -0.17066416144371033
+min_loc     (159, 0)
+max_loc     (243, 0)
+进来了, 小图片坐标820
+newDis:  890
+准备移动
+准备进入
+进来了
+准备进入
+进来了
+(360, 110, 3)
+360 110
+(360, 110, 3)
+360 110
+min_val     -0.41643399000167847
+max_val     -0.17066416144371033
+min_loc     (159, 0)
+max_loc     (243, 0)
+min_val     -0.41643399000167847
+max_val     -0.17066416144371033
+min_loc     (159, 0)
+max_loc     (243, 0)
+进来了, 小图片坐标820
+进来了, 小图片坐标820
+第1次移动后，位置为824
+准备移动
+newDis:  890
+newDis:  890
+准备移动
+准备移动
+第2次移动后，位置为833
+准备移动
+第1次移动后，位置为830
+第1次移动后，位置为827
+准备移动
+准备移动
+第3次移动后，位置为840
+准备移动
+第2次移动后，位置为837
+第2次移动后，位置为835
+准备移动
+准备移动
+第4次移动后，位置为844
+准备移动
+第3次移动后，位置为841
+准备移动
+第3次移动后，位置为842
+准备移动
+第5次移动后，位置为847
+准备移动
+准备进入
+进来了
+(360, 110, 3)
+360 110
+min_val     -0.41643399000167847
+max_val     -0.17066416144371033
+min_loc     (159, 0)
+max_loc     (243, 0)
+进来了, 小图片坐标820
+第4次移动后，位置为852
+第4次移动后，位置为851
+准备移动
+准备移动
+第6次移动后，位置为855
+准备移动
+newDis:  890
+准备移动
+第5次移动后，位置为855
+准备移动
+第5次移动后，位置为861
+准备移动
+第7次移动后，位置为858
+准备移动
+第1次移动后，位置为829
+准备移动
+第6次移动后，位置为871
+第6次移动后，位置为864
+准备移动
+准备移动
+第8次移动后，位置为862
+准备移动
+第2次移动后，位置为834
+准备移动
+第7次移动后，位置为869
+第7次移动后，位置为875
+准备移动
+准备移动
+第9次移动后，位置为865
+准备移动
+第3次移动后，位置为840
+准备移动
+第8次移动后，位置为884
+第8次移动后，位置为877
+准备移动
+准备移动
+第10次移动后，位置为870
+准备移动
+第4次移动后，位置为848
+准备移动
+第9次移动后，位置为890
+第9次移动后，位置为881
+准备移动
+第11次移动后，位置为873
+准备移动
+第5次移动后，位置为852
+准备移动
+第10次移动后，位置为889
+准备移动
+第12次移动后，位置为881
+准备移动
+第6次移动后，位置为855
+准备移动
+第11次移动后，位置为897
+第13次移动后，位置为891
+第7次移动后，位置为863
+准备移动
+第8次移动后，位置为867
+准备移动
+滑块图片放入对应位置后放开鼠标
+第9次移动后，位置为875
+准备移动
+第10次移动后，位置为878
+准备移动
+滑块图片放入对应位置后放开鼠标
+滑块图片放入对应位置后放开鼠标
+第11次移动后，位置为881
+准备移动
+第12次移动后，位置为890
+滑块图片放入对应位置后放开鼠标
+WSGI app 0 (mountpoint='') ready in 28 seconds on interpreter 0x7fdc64606d10 pid: 68865 (default app)
+WSGI app 0 (mountpoint='') ready in 29 seconds on interpreter 0x7fdc64606d10 pid: 68864 (default app)
+WSGI app 0 (mountpoint='') ready in 29 seconds on interpreter 0x7fdc64606d10 pid: 68863 (default app)
+WSGI app 0 (mountpoint='') ready in 30 seconds on interpreter 0x7fdc64606d10 pid: 68866 (default app)
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Fri Mar  6 11:22:45 2026] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong/pyaction/fFlask
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8800).
+bind(): Address already in use [core/socket.c line 777]
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Fri Mar  6 11:23:31 2026] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong/pyaction/fFlask
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8800).
+bind(): Address already in use [core/socket.c line 777]
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Fri Mar  6 11:23:52 2026] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong/pyaction/fFlask
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8800).
+bind(): Address already in use [core/socket.c line 777]
+Fri Mar  6 11:24:56 2026 - uWSGI worker 2 error: the master disconnected from this worker. Shutting down the worker.
+Fri Mar  6 11:24:56 2026 - uWSGI worker 1 error: the master disconnected from this worker. Shutting down the worker.
+Fri Mar  6 11:24:56 2026 - uWSGI worker 4 error: the master disconnected from this worker. Shutting down the worker.
+Fri Mar  6 11:24:56 2026 - uWSGI worker 3 error: the master disconnected from this worker. Shutting down the worker.
+Fri Mar  6 11:24:56 2026 - uWSGI worker 2 error: the master disconnected from this worker. Shutting down the worker.
+Fri Mar  6 11:24:56 2026 - uWSGI worker 4 error: the master disconnected from this worker. Shutting down the worker.
+Fri Mar  6 11:24:56 2026 - uWSGI worker 1 error: the master disconnected from this worker. Shutting down the worker.
+Fri Mar  6 11:24:56 2026 - uWSGI worker 3 error: the master disconnected from this worker. Shutting down the worker.
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Fri Mar  6 11:25:24 2026] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong/pyaction/fFlask
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8800).
+bind(): Address already in use [core/socket.c line 777]
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Fri Mar  6 11:25:55 2026] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong/pyaction/fFlask
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8800).
+bind(): Address already in use [core/socket.c line 777]
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Fri Mar  6 11:26:54 2026] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong/pyaction/fFlask
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8800 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:57506 (port auto-assigned) fd 3
+dropping root privileges after socket binding
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+PEP 405 virtualenv detected: /Users/zhouliudong/pyaction/venv
+Set PythonHome to /Users/zhouliudong/pyaction/venv
+Python main interpreter initialized at 0x7fb514c05550
+dropping root privileges after plugin initialization
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your request buffer size is 65535 bytes
+mapped 1031430 bytes (1007 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+dropping root privileges after application loading
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 69227)
+spawned uWSGI worker 1 (pid: 69228, cores: 2)
+spawned uWSGI worker 2 (pid: 69229, cores: 2)
+spawned uWSGI worker 3 (pid: 69230, cores: 2)
+spawned uWSGI worker 4 (pid: 69231, cores: 2)
+spawned uWSGI http 1 (pid: 69232)
+准备进入
+进来了
+(360, 110, 3)
+360 110
+min_val     -0.3235061466693878
+max_val     0.31382063031196594
+min_loc     (24, 0)
+max_loc     (303, 0)
+进来了, 小图片坐标820
+准备进入
+进来了
+(360, 110, 3)
+360 110
+min_val     -0.3235061466693878
+max_val     0.31382063031196594
+min_loc     (24, 0)
+max_loc     (303, 0)
+进来了, 小图片坐标820
+newDis:  830
+准备移动
+准备进入
+进来了
+(360, 110, 3)
+360 110
+min_val     -0.3235061466693878
+max_val     0.31382063031196594
+min_loc     (24, 0)
+max_loc     (303, 0)
+进来了, 小图片坐标820
+newDis:  830
+准备移动
+准备进入
+进来了
+(360, 110, 3)
+360 110
+第1次移动后，位置为825
+准备移动
+min_val     -0.3235061466693878
+max_val     0.31382063031196594
+min_loc     (24, 0)
+max_loc     (303, 0)
+进来了, 小图片坐标820
+newDis:  830
+准备移动
+第1次移动后，位置为828
+准备移动
+第2次移动后，位置为829
+准备移动
+newDis:  830
+准备移动
+第1次移动后，位置为828
+准备移动
+第2次移动后，位置为838
+第3次移动后，位置为839
+第1次移动后，位置为828
+准备移动
+第2次移动后，位置为836
+第2次移动后，位置为833
+滑块图片放入对应位置后放开鼠标
+滑块图片放入对应位置后放开鼠标
+滑块图片放入对应位置后放开鼠标
+滑块图片放入对应位置后放开鼠标
+WSGI app 0 (mountpoint='') ready in 23 seconds on interpreter 0x7fb514c05550 pid: 69228 (default app)
+WSGI app 0 (mountpoint='') ready in 23 seconds on interpreter 0x7fb514c05550 pid: 69229 (default app)
+WSGI app 0 (mountpoint='') ready in 23 seconds on interpreter 0x7fb514c05550 pid: 69230 (default app)
+WSGI app 0 (mountpoint='') ready in 23 seconds on interpreter 0x7fb514c05550 pid: 69231 (default app)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 69232)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Fri Mar  6 11:28:03 2026] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong/pyaction/fFlask
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8800 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:57827 (port auto-assigned) fd 3
+dropping root privileges after socket binding
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+PEP 405 virtualenv detected: /Users/zhouliudong/pyaction/venv
+Set PythonHome to /Users/zhouliudong/pyaction/venv
+Python main interpreter initialized at 0x7fee5bd05750
+dropping root privileges after plugin initialization
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your request buffer size is 65535 bytes
+mapped 1031430 bytes (1007 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+dropping root privileges after application loading
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 69470)
+spawned uWSGI worker 1 (pid: 69471, cores: 2)
+spawned uWSGI worker 2 (pid: 69472, cores: 2)
+spawned uWSGI worker 3 (pid: 69473, cores: 2)
+spawned uWSGI worker 4 (pid: 69474, cores: 2)
+spawned uWSGI http 1 (pid: 69475)
+准备进入
+进来了
+(360, 110, 3)
+360 110
+min_val     -0.17872601747512817
+max_val     0.32709577679634094
+min_loc     (183, 0)
+max_loc     (97, 0)
+进来了, 小图片坐标820
+准备进入
+进来了
+(360, 110, 3)
+360 110
+min_val     -0.17872601747512817
+max_val     0.32709577679634094
+min_loc     (183, 0)
+max_loc     (97, 0)
+newDis:  900
+准备移动
+进来了, 小图片坐标820
+准备进入
+进来了
+(360, 110, 3)
+360 110
+第1次移动后，位置为827
+准备移动
+min_val     -0.17872601747512817
+max_val     0.32709577679634094
+min_loc     (183, 0)
+max_loc     (97, 0)
+newDis:  900
+准备移动
+进来了, 小图片坐标820
+准备进入
+进来了
+(360, 110, 3)
+360 110
+min_val     -0.17872601747512817
+max_val     0.32709577679634094
+min_loc     (183, 0)
+max_loc     (97, 0)
+第2次移动后，位置为831
+准备移动
+进来了, 小图片坐标820
+第1次移动后，位置为829
+准备移动
+newDis:  900
+准备移动
+第3次移动后，位置为834
+准备移动
+第2次移动后，位置为833
+准备移动
+newDis:  900
+准备移动
+第1次移动后，位置为830
+准备移动
+第4次移动后，位置为843
+准备移动
+第3次移动后，位置为843
+准备移动
+第2次移动后，位置为837
+准备移动
+第1次移动后，位置为830
+准备移动
+第5次移动后，位置为853
+准备移动
+第4次移动后，位置为850
+准备移动
+第3次移动后，位置为845
+第2次移动后，位置为836
+准备移动
+准备移动
+第6次移动后，位置为863
+准备移动
+第5次移动后，位置为856
+准备移动
+第3次移动后，位置为844
+第4次移动后，位置为853
+准备移动
+准备移动
+第7次移动后，位置为867
+准备移动
+第6次移动后，位置为859
+准备移动
+第4次移动后，位置为850
+第5次移动后，位置为862
+准备移动
+准备移动
+第8次移动后，位置为874
+准备移动
+第7次移动后，位置为869
+准备移动
+第5次移动后，位置为855
+准备移动
+第6次移动后，位置为866
+准备移动
+第9次移动后，位置为877
+准备移动
+第8次移动后，位置为877
+准备移动
+第7次移动后，位置为869
+准备移动
+第6次移动后，位置为864
+准备移动
+第10次移动后，位置为881
+准备移动
+第9次移动后，位置为881
+准备移动
+第7次移动后，位置为868
+准备移动
+第8次移动后，位置为877
+准备移动
+第11次移动后，位置为884
+准备移动
+第10次移动后，位置为885
+准备移动
+第8次移动后，位置为878
+准备移动
+第9次移动后，位置为885
+准备移动
+第12次移动后，位置为889
+准备移动
+第11次移动后，位置为891
+准备移动
+第9次移动后，位置为886
+第10次移动后，位置为892
+准备移动
+准备移动
+第13次移动后，位置为892
+准备移动
+第12次移动后，位置为899
+准备移动
+第10次移动后，位置为889
+第11次移动后，位置为897
+准备移动
+准备移动
+第14次移动后，位置为901
+第13次移动后，位置为906
+第12次移动后，位置为906
+第11次移动后，位置为898
+准备移动
+第12次移动后，位置为908
+滑块图片放入对应位置后放开鼠标
+滑块图片放入对应位置后放开鼠标
+滑块图片放入对应位置后放开鼠标
+滑块图片放入对应位置后放开鼠标
+WSGI app 0 (mountpoint='') ready in 25 seconds on interpreter 0x7fee5bd05750 pid: 69473 (default app)
+WSGI app 0 (mountpoint='') ready in 25 seconds on interpreter 0x7fee5bd05750 pid: 69474 (default app)
+WSGI app 0 (mountpoint='') ready in 25 seconds on interpreter 0x7fee5bd05750 pid: 69471 (default app)
+WSGI app 0 (mountpoint='') ready in 25 seconds on interpreter 0x7fee5bd05750 pid: 69472 (default app)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 69475)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Mon Mar  9 13:47:36 2026] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong/pyaction/fFlask
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8800 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:58447 (port auto-assigned) fd 3
+dropping root privileges after socket binding
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+PEP 405 virtualenv detected: /Users/zhouliudong/pyaction/venv
+Set PythonHome to /Users/zhouliudong/pyaction/venv
+Python main interpreter initialized at 0x7fc7832053b0
+dropping root privileges after plugin initialization
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your request buffer size is 65535 bytes
+mapped 1031430 bytes (1007 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+dropping root privileges after application loading
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 24317)
+spawned uWSGI worker 1 (pid: 24318, cores: 2)
+spawned uWSGI worker 2 (pid: 24319, cores: 2)
+spawned uWSGI worker 3 (pid: 24320, cores: 2)
+spawned uWSGI worker 4 (pid: 24321, cores: 2)
+spawned uWSGI http 1 (pid: 24322)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 24322)
+Traceback (most recent call last):
+  File "moving_pic.py", line 277, in <module>
+Traceback (most recent call last):
+  File "moving_pic.py", line 277, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "moving_pic.py", line 277, in <module>
+  File "moving_pic.py", line 277, in <module>
+    code = get_pic(get_type='two', user='zld87', pwd='123qweASD')
+  File "moving_pic.py", line 118, in get_pic
+    code = get_pic(get_type='two', user='zld87', pwd='123qweASD')
+    code = get_pic(get_type='two', user='zld87', pwd='123qweASD')
+  File "moving_pic.py", line 118, in get_pic
+  File "moving_pic.py", line 118, in get_pic
+    code = get_pic(get_type='two', user='zld87', pwd='123qweASD')
+  File "moving_pic.py", line 118, in get_pic
+    driver = webdriver.Chrome()
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    driver = webdriver.Chrome()
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    driver = webdriver.Chrome()
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    driver = webdriver.Chrome()
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/chromium/webdriver.py", line 50, in __init__
+    super().__init__(
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/chromium/webdriver.py", line 50, in __init__
+    super().__init__(
+    super().__init__(
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/chromium/webdriver.py", line 50, in __init__
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/chromium/webdriver.py", line 50, in __init__
+    if finder.get_browser_path():
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 47, in get_browser_path
+    if finder.get_browser_path():
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 47, in get_browser_path
+    if finder.get_browser_path():
+    if finder.get_browser_path():
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 47, in get_browser_path
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+    return self._binary_paths()["browser_path"]
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 67, in _binary_paths
+    return self._binary_paths()["browser_path"]
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 67, in _binary_paths
+    return self._binary_paths()["browser_path"]
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 67, in _binary_paths
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/common/driver_finder.py", line 67, in _binary_paths
+    output = SeleniumManager().binary_paths(self._to_args())
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py", line 55, in binary_paths
+    output = SeleniumManager().binary_paths(self._to_args())
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py", line 55, in binary_paths
+    output = SeleniumManager().binary_paths(self._to_args())
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py", line 55, in binary_paths
+    output = SeleniumManager().binary_paths(self._to_args())
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py", line 55, in binary_paths
+    return self._run(args)
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py", line 119, in _run
+    return self._run(args)
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py", line 119, in _run
+    return self._run(args)
+    return self._run(args)
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py", line 119, in _run
+    completed_proc = subprocess.run(args, capture_output=True)
+  File "/Users/zhouliudong/pyaction/venv/lib/python3.8/site-packages/selenium/webdriver/common/selenium_manager.py", line 119, in _run
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 491, in run
+    completed_proc = subprocess.run(args, capture_output=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 491, in run
+    completed_proc = subprocess.run(args, capture_output=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 491, in run
+    completed_proc = subprocess.run(args, capture_output=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 491, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 1024, in communicate
+    stdout, stderr = process.communicate(input, timeout=timeout)
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 1024, in communicate
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 1024, in communicate
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 1024, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+    stdout, stderr = self._communicate(input, endtime, timeout)
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 1866, in _communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 1866, in _communicate
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 1866, in _communicate
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 1866, in _communicate
+    ready = selector.select(timeout)
+    ready = selector.select(timeout)
+    ready = selector.select(timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/selectors.py", line 415, in select
+    ready = selector.select(timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/selectors.py", line 415, in select
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/selectors.py", line 415, in select
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+    fd_event_list = self._selector.poll(timeout)
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+    fd_event_list = self._selector.poll(timeout)
+unable to load app 0 (mountpoint='') (callable not found or import error)
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+unable to load app 0 (mountpoint='') (callable not found or import error)
+unable to load app 0 (mountpoint='') (callable not found or import error)
+unable to load app 0 (mountpoint='') (callable not found or import error)
+OOPS ! failed loading app in worker 4 (pid 24321) :( trying again...
+worker 4 buried after 1 seconds
+OOPS ! failed loading app in worker 3 (pid 24320) :( trying again...
+worker 3 buried after 1 seconds
+OOPS ! failed loading app in worker 2 (pid 24319) :( trying again...
+worker 2 buried after 1 seconds
+OOPS ! failed loading app in worker 1 (pid 24318) :( trying again...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.1-dev+89cb161c (64bit) on [Mon Mar  9 13:47:45 2026] ***
+compiled with version: Apple LLVM 12.0.5 (clang-1205.0.22.11) on 29 October 2024 09:50:15
+os: Darwin-20.6.0 Darwin Kernel Version 20.6.0: Mon Aug 30 06:12:21 PDT 2021; root:xnu-7195.141.6~3/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhouliudong/pyaction/fFlask
+writing pidfile to /Users/zhouliudong/pyaction/Fflask/uwsgi/uwsgi.pid
+detected binary path: /Users/zhouliudong/github/uwsgi/uwsgi
+dropping root privileges as early as possible
+chdir() to /Users/zhouliudong/pyaction/Fflask
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8800 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:58530 (port auto-assigned) fd 3
+dropping root privileges after socket binding
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+PEP 405 virtualenv detected: /Users/zhouliudong/pyaction/venv
+Set PythonHome to /Users/zhouliudong/pyaction/venv
+Python main interpreter initialized at 0x7fc3ff2059b0
+dropping root privileges after plugin initialization
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your request buffer size is 65535 bytes
+mapped 1031430 bytes (1007 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+dropping root privileges after application loading
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 24475)
+spawned uWSGI worker 1 (pid: 24476, cores: 2)
+spawned uWSGI worker 2 (pid: 24477, cores: 2)
+spawned uWSGI worker 3 (pid: 24478, cores: 2)
+spawned uWSGI worker 4 (pid: 24479, cores: 2)
+spawned uWSGI http 1 (pid: 24480)
+WSGI app 0 (mountpoint='') ready in 49 seconds on interpreter 0x7fc3ff2059b0 pid: 24478 (default app)
+WSGI app 0 (mountpoint='') ready in 54 seconds on interpreter 0x7fc3ff2059b0 pid: 24479 (default app)
+WSGI app 0 (mountpoint='') ready in 61 seconds on interpreter 0x7fc3ff2059b0 pid: 24476 (default app)
+WSGI app 0 (mountpoint='') ready in 66 seconds on interpreter 0x7fc3ff2059b0 pid: 24477 (default app)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 24480)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.

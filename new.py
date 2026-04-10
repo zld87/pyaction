@@ -2,7 +2,7 @@ import sys, requests, os
 import os, json, xlwt
 import subprocess, random
 import paramiko
-import time
+import time, re
 from multiprocessing import Process, Pool, Queue
 from dateutil.parser import parse
 import requests
@@ -461,3 +461,46 @@ print(int(format(time.time(), '.0f')))
 
 ccc = 7 // 2
 print(ccc)
+
+
+aa = lambda v: v.encode('utf-8')
+print(aa('woshishui'))
+
+
+
+# 假设有一个时间戳
+timestamp = 1765263953  # 例如：2023-01-01 00:00:00 UTC
+
+# 转换为datetime对象
+dt_object = datetime.fromtimestamp(timestamp)
+
+# 转换为标准的时间格式
+readable_time = dt_object.strftime('%Y-%m-%d %H:%M:%S')
+
+print(readable_time)  # 输出: 2023-01-01 00:00:00
+
+colors = ['blue', 'white', 'red']
+print(str(colors)[1:-1])
+
+
+def test():
+    print("开始啦")
+    first = yield 4  # return 4   first = None
+    print("第一次", first)
+    yield 2
+    print("第二次")
+    yield 3
+
+
+t = test()
+print(t.__next__())
+print(t.send('nndx'))
+print(t.__next__())
+
+s = '<1><2>itcast</2></1>'
+
+abzld1 = re.match(r'<(.+)><(.+)>itcast</\2></\1>', s)
+abzld2 = re.match(r'<(?P<name1>.+)><(?P<name2>.+)>itcast</(?P=name2)></(?P=name1)>', s)
+
+print(abzld1.group())
+print(abzld2.group())

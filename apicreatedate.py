@@ -143,8 +143,9 @@ def new_key(io_date):
 
 
 def mileage(io_date, start_mlieages, PARKING_count):
-    # 6 之前代表时间和里程偏移量的范围 6x10秒 = 60秒时间的偏移量
-    # 6到36之间作为趟次的第一段行程时间
+    # 3之前代表时间和里程偏移量的范围 3x10秒 = 30秒时间的偏移量
+    # 3到33之间作为趟次的第一段行程时间
+    # 87到115之间作为趟次的第一段行程时间
     if io_date['operatingState'] == "RUN" and \
             (PARKING_count > 3 and PARKING_count <= 33) or \
             (PARKING_count > 87 and PARKING_count <= 115):
@@ -254,7 +255,7 @@ def full_saveQB(
         qb_range_index: int, qb_out_flie: int,
         qb_json_load: object, ws_count: int,
         workStatus_count: int, Renumber_WorkStatus: int
-        ):
+):
     QB_FOLDER_PATH = r'D:\data\fulldataqb\fulldataqb'
     QB_OUT_FILE_PATH = r'D:\data\fulldataqb'
     QB_IN_FILE_NAME = os.listdir(QB_FOLDER_PATH)
@@ -499,10 +500,10 @@ def full_save(vin, ws=4):
 
                             if is_PARKING == 'PARKING':
                                 io_date['operatingState'] = \
-                                random.choices(operating_PARKING, weights=[10, 1, 1, 1], k=1)[0]
+                                    random.choices(operating_PARKING, weights=[10, 1, 1, 1], k=1)[0]
                             elif is_PARKING == 'OUTAGE':
                                 io_date['operatingState'] = \
-                                random.choices(operating_OUTAGE, weights=[10, 1, 1, 1], k=1)[0]
+                                    random.choices(operating_OUTAGE, weights=[10, 1, 1, 1], k=1)[0]
                             else:
                                 io_date['operatingState'] = random.choices(operating_OTHER, weights=[1, 1, 1], k=1)[0]
 
@@ -556,9 +557,11 @@ def full_save(vin, ws=4):
                         # 企标时序数据
                         qb_json_load, qb_range_index, qb_out_flie, \
                         workStatus_count, Renumber_WorkStatus, ws_count = \
-                        full_saveQB(vin=vin, time_stp=time_stp, io_date=io_date, PARKING_count=PARKING_count,
-                                    qb_range_index=qb_range_index, qb_json_load=qb_json_load, qb_out_flie=qb_out_flie,
-                                    ws_count=ws_count, workStatus_count=workStatus_count, Renumber_WorkStatus=Renumber_WorkStatus)
+                            full_saveQB(vin=vin, time_stp=time_stp, io_date=io_date, PARKING_count=PARKING_count,
+                                        qb_range_index=qb_range_index, qb_json_load=qb_json_load,
+                                        qb_out_flie=qb_out_flie,
+                                        ws_count=ws_count, workStatus_count=workStatus_count,
+                                        Renumber_WorkStatus=Renumber_WorkStatus)
                         # 扫刷和搅拌
                         if io_date['chargingState'] == 'OUTAGE' and ws == 1:
                             mix_sweep_count, work_mix, work_sweep = mix_sweep(io_date=io_date,
@@ -606,6 +609,7 @@ def full_save(vin, ws=4):
 
                     time.sleep(10)
 
+
 def main(num, ws=4):
     if num == 1:
         # vin_list = ['L58ZC5VC9ND003096', 'LEWUMC180PF101060', 'LEWUMC187MF146721']
@@ -622,12 +626,11 @@ def main(num, ws=4):
         FOLDER_PATH = r'D:\data\fulldata\fulldata'
         IN_FILE_NAME = os.listdir(FOLDER_PATH)
         for vin in IN_FILE_NAME:
-                lstr = vin.find('_')
-                rstr = vin.rfind('.')
-                vin = vin[lstr + 1: rstr]
-                full_save(vin)
-                # full_saveQB(vin)
-
+            lstr = vin.find('_')
+            rstr = vin.rfind('.')
+            vin = vin[lstr + 1: rstr]
+            full_save(vin)
+            # full_saveQB(vin)
 
 
 if __name__ == '__main__':
