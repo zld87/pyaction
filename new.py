@@ -2,12 +2,13 @@ import sys, requests, os
 import os, json, xlwt
 import subprocess, random
 import paramiko
-import time
+import time, re
 from multiprocessing import Process, Pool, Queue
 from dateutil.parser import parse
 import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from datetime import datetime
 
 
 print(os.getcwd())
@@ -91,14 +92,18 @@ print(A[-1::-2])
 a = [2 for y in range(10)]
 c = type(a)
 print(c)
+print('_____________________')
 
 
-class zhou(object):
-    def __call__(self, a):
-        print('---call----' + a)
+class zhou123(object):
+    def __call__(self):
+        print('---这就是call----')
+    def __str__(self):
+        return '我是str'
 
-
-a = zhou()
+# 调用私有方法 __call__
+ac = zhou123()
+ac()
 
 i = 3
 i *= 3
@@ -252,7 +257,7 @@ while (n := n - 1) + 1:
 print(bin(255))
 
 
-
+# requests.request(method='post', )
 
 
 str_obj = "Hello, world!"
@@ -266,7 +271,7 @@ has_attribute = hasattr(str_obj, attribute_name)
 print(has_attribute)  # 输出：False，因为字符串对象没有isdigit()方法，但有isdigit属性（值为False）和isdecimal属性（值为True）
 
 
-a = os.path.exists(os.path.join('/Users/zhouliudong/pyaction/', 'kafka2.py'))
+a = os.path.exists(os.path.join('/Users/zhouliudong/pyaction/', 'display.py'))
 print(a)
 # while not (a := os.path.exists(os.path.join('/Users/zhouliudong/pyaction/', '*.py'))):
 #     print(123)
@@ -305,3 +310,197 @@ str_obj = "Hello, world!"
 attribute_name = "upper"  # isdigit()方法用于检查字符串是否只包含数字字符
 has_attribute = hasattr(str_obj, attribute_name)
 print(has_attribute)
+
+a = {'name': 'zhouliudong', 'age': 18}
+b = ('zld', 19)
+
+def zld(*b, **a):
+    try:
+        print(a)
+        # return a
+    except Exception as aa:
+        print(aa)
+    else:
+        print('zld')
+    finally:
+        print(b)
+
+zld(*b, **a)
+
+
+valid = [True, False]
+
+c = random.choices(valid, weights=[10, 1], k=4)
+print(c)
+
+
+yy = '12323'
+print(yy.strip('"'))
+
+# import zmq
+#
+# context = zmq.Context()
+# socket = context.socket(zmq.REQ)
+# socket.connect("tcp://localhost:8800")
+#
+# msg1 = {
+#             "TYPE": "REP_HMIRunStatus",
+#             'time': str(format(time.time(), '.0f')),
+#             "DATA": {
+#                     # 辅助功能：0为未开启，1为倒垃圾，2为充电，3为加水。
+#                     "AUXOPERATE": random.choices([0, 1, 2, 3], weights=[1, 10, 10, 10], k=1)[0],
+#                      # 偏航角：范围 -90度到90度
+#                      "DirectionAngle": float(format(random.uniform(-90, 90), '.1f')),
+#                      # 车辆档位， 0为P档，1为N档，2为R档，3为D档。
+#                      "GEAR": random.choices([0, 1, 2, 3], weights=[1, 1, 1, 10], k=1)[0],
+#                      # 车辆模式：1 自动驾驶 2 本地驾驶 3 远程遥控。
+#                      "MODE": 2,
+#                      # 车辆自检状态：0为检测中，1为自检完成。
+#                      "RUNSTATE": random.choices([0, 1], weights=[1, 1], k=1)[0],
+#                      # 清扫作业启动状态：0为未清扫，1为清扫。（后续细分清扫模式可扩展）
+#                      "SWEEP": random.choices([0, 1], weights=[10, 5], k=1)[0],
+#                      # 红绿灯识别结果：0为未识别，1为绿灯，2为黄灯，3为红灯。
+#                      "TRAFFICLIGHT": random.choices([0, 1, 2, 3], weights=[10, 5, 1, 10], k=1)[0],
+#                      # 转向信号，0为直行，1为左转，2为右转。
+#                      "TURNROUND": random.choices([0, 1, 2], weights=[10, 1, 1], k=1)[0],
+#                      # 车速，单位为km/h
+#                      "VCAR": random.randint(10, 30),
+#                      # 启/停自动驾驶信号，false为停止，true为启动。
+#                      "bStart": 'false',
+#                      # 车辆故障的故障码，多个故障码之间用“|”符号隔离。
+#                      "ERROR": '',
+#                      "OBSTACLES": []
+#                      }
+#         }
+#
+#
+# newmsg = {
+#     'DATA': {
+#         'AUXOPERATE': 0,
+#         'B': 0.0,
+#         'DirectionAngle': 0.0,
+#         'GEAR': 0,
+#         'L': 0.0,
+#         'MODE': 0,
+#         'OBSTACLES': [],
+#         'RUNSTATE': 0,
+#         'SWEEP': 0,
+#         'TRAFFICLIGHT': 0,
+#         'TURNROUND': 0,
+#         'VCAR': 0,
+#         'bStart': True,
+#         'headingAngle': 0.0
+#     },
+#     'TYPE': 'REQ_HMIRunStatus'
+# }
+#
+# #客户端必须要先发送消息，然后在接收消息
+# if __name__ == '__main__':
+#     print('zmq client start....')
+#     for i in range(1, 5):
+#         socket.send_json(newmsg)
+#         message = socket.recv_json()
+#         print(message)
+#         time.sleep(5)
+
+if is_fault := bool(random.choices([True, False], weights=[1, 10], k=1)[0]):
+    print(is_fault)
+else:
+    print(is_fault)
+
+
+
+# 飞书机器人
+# url = 'https://open.feishu.cn/open-apis/bot/v2/hook/44155aeb-b5f3-48d1-83d4-bbb846b3db81'
+#
+# data1 = {"msg_type": "text", "content": {"text": "request example"}}
+#
+# headers = {"Content-Type": "application/json"}
+#
+# r = requests.post(url=url, headers=headers, json=data1)
+# print(r.text)
+
+
+
+i = '77'
+print(int(i, 10))
+
+
+data = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+data = data[0:10] + 'T' + data[11:19] + 'Z'
+print(data)
+
+
+c = 9 // 2
+print(c)
+
+class zld199(Exception):
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+
+def xxzld():
+    try:
+        if 2 > 1:
+            raise zld199('zld', 19)
+    except zld199 as error:
+        print(repr(error))
+
+xxzld()
+
+o = [11, 22, 33, 44]
+print(o[-2])
+
+# a7 = '1234444 %d' % a
+# print('1234444 %d%d' % (a, a))
+
+a0123 = 'adf'
+
+print(int(format(time.time(), '.0f')))
+
+ccc = 7 // 2
+print(ccc)
+
+
+aa = lambda v: v.encode('utf-8')
+print(aa('woshishui'))
+
+
+
+# 假设有一个时间戳
+timestamp = 1765263953  # 例如：2023-01-01 00:00:00 UTC
+
+# 转换为datetime对象
+dt_object = datetime.fromtimestamp(timestamp)
+
+# 转换为标准的时间格式
+readable_time = dt_object.strftime('%Y-%m-%d %H:%M:%S')
+
+print(readable_time)  # 输出: 2023-01-01 00:00:00
+
+colors = ['blue', 'white', 'red']
+print(str(colors)[1:-1])
+
+
+def test():
+    print("开始啦")
+    first = yield 4  # return 4   first = None
+    print("第一次", first)
+    yield 2
+    print("第二次")
+    yield 3
+
+
+t = test()
+print(t.__next__())
+print(t.send('nndx'))
+print(t.__next__())
+
+s = '<1><2>itcast</2></1>'
+
+abzld1 = re.match(r'<(.+)><(.+)>itcast</\2></\1>', s)
+abzld2 = re.match(r'<(?P<name1>.+)><(?P<name2>.+)>itcast</(?P=name2)></(?P=name1)>', s)
+
+print(abzld1.group())
+print(abzld2.group())
